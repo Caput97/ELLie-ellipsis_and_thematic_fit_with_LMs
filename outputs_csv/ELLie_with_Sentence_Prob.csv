@@ -1,0 +1,576 @@
+,ID,Condition,Sentence,Construction,Semantic_Role,Sentence_score_(GPT),Sentence_score_(BERT)
+0,1,T – T,"The photographer used the camera, and the reporter did too.",VP-ellipsis,Agent,-4.4023756980896,-1.9702361424764
+1,1,T – AT,"The photographer used the camera, and the butcher did too.",VP-ellipsis,Agent,-4.866790294647217,-2.733161131540934
+2,1,AT – T,"The grandfather used the camera, and the reporter did too.",VP-ellipsis,Agent,-4.994553089141846,-3.296982725461324
+3,1,AT – AT,"The grandfather used the camera, and the butcher did too.",VP-ellipsis,Agent,-5.207554340362549,-3.5417410135269165
+4,1,T – SP violation,"The photographer used the camera, and the bike did too.",VP-ellipsis,Agent,-4.508456707000732,-2.668523073196411
+5,2,T – T,"The engineer completed the project, but the student didn’t.",VP-ellipsis,Agent,-5.201939582824707,-4.56541318159837
+6,2,T – AT,"The engineer completed the project, but the cyclist didn’t.",VP-ellipsis,Agent,-5.391611576080322,-4.748010525336633
+7,2,AT – T,"The child completed the project, but the student didn’t.",VP-ellipsis,Agent,-5.347959518432617,-4.436380716470572
+8,2,AT – AT,"The child completed the project, but the cyclist didn’t. ",VP-ellipsis,Agent,-5.6820173263549805,-5.014597892761231
+9,2,T – SP violation,"The engineer completed the project, but the ball didn’t.",VP-ellipsis,Agent,-5.446559429168701,-5.278521207662729
+10,3,T – T,"The barber cuts the hair, and the hairdresser does too.",VP-ellipsis,Agent,-2.8759286403656006,-1.1252042134602864
+11,3,T – AT,"The barber cuts the hair, and the butcher does too.",VP-ellipsis,Agent,-3.8635566234588623,-1.9143765889681303
+12,3,AT – T,"The doctor cuts the hair, and the hairdresser does too. ",VP-ellipsis,Agent,-3.662407636642456,-1.279876436505999
+13,3,AT – AT,"The doctor cuts the hair, and the butcher does too.",VP-ellipsis,Agent,-4.463850021362305,-2.438519517580668
+14,3,T – SP violation,"The barber cuts the hair, and happiness does too.",VP-ellipsis,Agent,-4.63020658493042,-3.065771500269572
+15,4,T – T,"The butcher used the knife, and the soldier did too.",VP-ellipsis,Agent,-4.413354873657227,-2.213517427444458
+16,4,T – AT,"The butcher used the knife, and the teacher did too.",VP-ellipsis,Agent,-4.530035495758057,-2.6071366469065347
+17,4,AT – T,"The bricklayer used the knife, and the soldier did too.",VP-ellipsis,Agent,-4.394180774688721,-1.9492957041813777
+18,4,AT – AT,"The bricklayer used the knife, and the teacher did too.",VP-ellipsis,Agent,-4.541064262390137,-2.294631994687594
+19,4,T – SP violation,"The butcher used the knife, and the dish did too.",VP-ellipsis,Agent,-4.875084400177002,-3.080827315648397
+20,5,T – T,"The snowboarder flips the board, but the surfer doesn’t.",VP-ellipsis,Agent,-4.881792068481445,-3.049831418430104
+21,5,T – AT,"The snowboarder flips the board, but the hairstylist doesn’t.",VP-ellipsis,Agent,-4.959392070770264,-3.2704343795776367
+22,5,AT – T,"The hydraulic flips the board, but the surfer doesn’t.",VP-ellipsis,Agent,-5.9520673751831055,-4.424618562062581
+23,5,AT – AT,"The hydraulic flips the board, but the hairstylist doesn’t.",VP-ellipsis,Agent,-5.920836448669434,-4.499377608299255
+24,5,T – SP violation,"The snowboarder flips the board, but the phone doesn’t.",VP-ellipsis,Agent,-5.156241893768311,-4.205541402101517
+25,6,T – T,"The comedian entertained the audience, and the speaker did too.",VP-ellipsis,Agent,-4.483536243438721,-2.18012007077535
+26,6,T – AT,"The comedian entertained the audience, and the student did too.",VP-ellipsis,Agent,-4.433495044708252,-2.5989551544189453
+27,6,AT – T,"The doctor entertained the audience, and the speaker did too.",VP-ellipsis,Agent,-4.757289886474609,-2.6861215035120645
+28,6,AT – AT,"The doctor entertained the audience, and the student did too.",VP-ellipsis,Agent,-4.868204116821289,-2.7823129494984946
+29,6,T – SP violation,"The comedian entertained the audience, and the bottle did too.",VP-ellipsis,Agent,-4.837448120117188,-2.885742783546448
+30,7,T – T,"The sculptor carved the stone, but the artist didn’t.",VP-ellipsis,Agent,-5.007748126983643,-4.108289095071646
+31,7,T – AT,"The sculptor carved the stone, but the butcher didn’t.",VP-ellipsis,Agent,-5.435210227966309,-4.441570942218487
+32,7,AT – T,"The therapist carved the stone, but the artist didn’t.",VP-ellipsis,Agent,-5.666306018829346,-5.188815190241887
+33,7,AT – AT,"The therapist carved the stone, but the butcher didn’t.",VP-ellipsis,Agent,-6.010581970214844,-5.564396968254676
+34,7,T – SP violation,"The sculptor carved the stone, but the sound didn’t.",VP-ellipsis,Agent,-5.6142778396606445,-4.944252747755784
+35,8,T – T,"The soldier wore a helmet, and so did the biker.",Do-x/ Do-so anaphora,Agent,-3.475001096725464,-0.8022911365215595
+36,8,T – AT,"The soldier wore a helmet, and so did the professor.",Do-x/ Do-so anaphora,Agent,-3.834261894226074,-1.0167680978775024
+37,8,AT – T,"The swimmer wore a helmet, and so did the biker.",Do-x/ Do-so anaphora,Agent,-3.5294315814971924,-1.1010733384352465
+38,8,AT – AT,"The swimmer wore a helmet, and so did the professor.",Do-x/ Do-so anaphora,Agent,-3.742208480834961,-1.5667493343353271
+39,8,T – SP violation,"The soldier wore a helmet, and so did the tree.",Do-x/ Do-so anaphora,Agent,-3.802419424057007,-1.281516710917155
+40,9,T – T,"The teacher helped the child, and the mother did the same thing.",Do-x/ Do-so anaphora,Agent,-3.444774389266968,-1.1603869029453822
+41,9,T – AT,"The teacher helped the child, and the cook did the same thing.",Do-x/ Do-so anaphora,Agent,-4.056174278259277,-1.543844427381243
+42,9,AT – T,"The florist helped the child, and the mother did the same thing.",Do-x/ Do-so anaphora,Agent,-3.4448728561401367,-0.8015334606170654
+43,9,AT – AT,"The florist helped the child, and the cook did the same thing. ",Do-x/ Do-so anaphora,Agent,-4.108560085296631,-1.0610041618347168
+44,9,T – SP violation,"The teacher helped the child, and the boat did the same thing.",Do-x/ Do-so anaphora,Agent,-4.314496994018555,-1.9365711552756173
+45,10,T – T,"The programmer uses the computer, and so does the student.",Do-x/ Do-so anaphora,Agent,-3.931094884872437,-1.915158033370972
+46,10,T – AT,"The programmer uses the computer, and so does the farmer.",Do-x/ Do-so anaphora,Agent,-4.183035850524902,-2.02019997437795
+47,10,AT – T,"The lumberjack uses the computer, and so does the student.",Do-x/ Do-so anaphora,Agent,-4.206723690032959,-1.7397842407226562
+48,10,AT – AT,"The lumberjack uses the computer, and so does the farmer.",Do-x/ Do-so anaphora,Agent,-4.066657066345215,-1.6269083756666918
+49,10,T – SP violation,"The programmer uses the computer, and so does the chair.",Do-x/ Do-so anaphora,Agent,-4.196918964385986,-2.093675454457601
+50,11,T – T,"The spectator bought a ticket, and  the passenger did so too.",Do-x/ Do-so anaphora,Agent,-4.733232021331787,-1.3208822863442558
+51,11,T – AT,"The spectator bought a ticket, and the cook did so too.",Do-x/ Do-so anaphora,Agent,-4.301910877227783,-1.694305147443499
+52,11,AT – T,"The housewife bought a ticket, and the passenger did so too.",Do-x/ Do-so anaphora,Agent,-4.252978324890137,-1.6553632872445243
+53,11,AT – AT,"The housewife bought a ticket, and the cook did so too.",Do-x/ Do-so anaphora,Agent,-4.385371208190918,-1.79968684060233
+54,11,T – SP violation,"The spectator bought a ticket, and the turtle did so too.",Do-x/ Do-so anaphora,Agent,-4.328052997589111,-1.9172408921378
+55,12,T – T,"The terrorist released the hostage, and the soldiers did the same thing.",Do-x/ Do-so anaphora,Agent,-3.881534576416016,-1.8066107886178155
+56,12,T – AT,"The terrorist released the hostage, and the artist did the same thing.",Do-x/ Do-so anaphora,Agent,-4.300136089324951,-2.017397574016026
+57,12,AT – T,"The electrician released the hostage, and the soldiers did the same thing.",Do-x/ Do-so anaphora,Agent,-3.986157178878784,-1.4668434778849284
+58,12,AT – AT,"The electrician released the hostage, and the artist did the same thing.",Do-x/ Do-so anaphora,Agent,-4.376075267791748,-1.9114553451538083
+59,12,T – SP violation,"The terrorist released the hostage, and the jacket did the same thing.",Do-x/ Do-so anaphora,Agent,-4.591772079467773,-2.3088702814919606
+60,13,T – T,"The farmer plowed the field, and the man did so too.",Do-x/ Do-so anaphora,Agent,-3.5119357109069824,-1.2360360463460287
+61,13,T – AT,"The farmer plowed the field, and the waiter did so too.",Do-x/ Do-so anaphora,Agent,-4.000887393951416,-1.6360283533732096
+62,13,AT – T,"The bartender plowed the field, and the man did so too.",Do-x/ Do-so anaphora,Agent,-4.638791561126709,-1.938503201802572
+63,13,AT – AT,"The bartender plowed the field, and the waiter did so too.",Do-x/ Do-so anaphora,Agent,-4.642388343811035,-1.742827002207438
+64,13,T – SP violation,"The bartender plowed the field, and the waiter did so too.",Do-x/ Do-so anaphora,Agent,-4.642388343811035,-1.742827002207438
+65,14,T – T,"The carpenter grabbed the board, and so did the surfer.",Do-x/ Do-so anaphora,Agent,-3.8948121070861816,-2.068141533778264
+66,14,T – AT,"The carpenter grabbed the board, and so did the monkey.",Do-x/ Do-so anaphora,Agent,-3.927393674850464,-2.193699916203817
+67,14,AT – T,"The dancer grabbed the board, and so did the surfer.",Do-x/ Do-so anaphora,Agent,-4.177392482757568,-1.657770303579477
+68,14,AT – AT,"The dancer grabbed the board, and so did the monkey.",Do-x/ Do-so anaphora,Agent,-4.37977933883667,-2.26376481850942
+69,14,T – SP violation,"The carpenter grabbed the board, and so did the coffee.",Do-x/ Do-so anaphora,Agent,-4.26780366897583,-2.504629850387573
+70,15,T – T,"The pyromaniac starts the fire, and the pilot the race. ",Gapping,Agent,-4.340278148651123,-2.7548650105794272
+71,15,T – AT,"The pyromaniac starts the fire, and the singer the race.",Gapping,Agent,-4.253060817718506,-2.5693772315979
+72,15,AT – T,"The biker starts the fire, and the pilot the race.",Gapping,Agent,-4.880643844604492,-3.654390115004319
+73,15,AT – AT,"The biker starts the fire, and the singer the race.",Gapping,Agent,-4.999517440795898,-3.303029647240272
+74,15,T – SP violation,"The pyromaniac starts the fire, and the leaf the race.",Gapping,Agent,-4.500829219818115,-3.567500178019206
+75,16,T – T,"The truck has hit the car, and the policeman the demonstrator.",Gapping,Agent,-4.702887535095215,-1.99210205078125
+76,16,T – AT,"The truck has hit the car, and the grandmother the demonstrator.",Gapping,Agent,-5.1614766120910645,-2.5373314221700034
+77,16,AT – T,"The footballer has hit the car, and the policeman the demonstrator.",Gapping,Agent,-5.187561988830566,-2.185190232594808
+78,16,AT – AT,"The footballer has hit the car, and the grandmother the demonstrator.",Gapping,Agent,-5.52069091796875,-2.958251158396403
+79,16,T – SP violation,"The truck has hit the car, and the air the demonstrator.",Gapping,Agent,-5.335158824920654,-2.831029192606608
+80,17,T – T,"The biologist uses the microscope, and the teacher the blackboard.",Gapping,Agent,-4.758994102478027,-2.2627988202231277
+81,17,T – AT,"The biologist uses the microscope, and the climber the blackboard.",Gapping,Agent,-4.914877414703369,-2.89059206644694
+82,17,AT – T,"The barber uses the microscope, and the teacher the blackboard.",Gapping,Agent,-4.431388854980469,-1.504963493347168
+83,17,AT – AT,"The barber uses the microscope, and the climber the blackboard.",Gapping,Agent,-4.727329730987549,-2.3871654272079468
+84,17,T – SP violation,"The biologist uses the microscope, and the bird the blackboard.",Gapping,Agent,-5.116892337799072,-2.556462969098772
+85,18,T – T,"The policeman fights the crime, and the firefighter the fire.",Gapping,Agent,-4.809361457824707,-2.943055116213285
+86,18,T – AT,"The policeman fights the crime, and the professor the fire.",Gapping,Agent,-5.083306789398193,-3.817541122436523
+87,18,AT – T,"The pupil fights the crime, and the firefighter the fire.",Gapping,Agent,-5.26336145401001,-3.5647365129910984
+88,18,AT – AT,"The pupil fights the crime, and the professor the fire.",Gapping,Agent,-5.278837203979492,-3.9769946336746216
+89,18,T – SP violation,"The policeman fights the crime, and the glass the fire.",Gapping,Agent,-5.3766279220581055,-4.551207065582275
+90,19,T – T,"The bartender shook the drink, and the cheerleader the flag.",Gapping,Agent,-5.092350006103516,-3.4513943378741923
+91,19,T – AT,"The bartender shook the drink, and the waiter the flag.",Gapping,Agent,-4.92035436630249,-2.82546059290568
+92,19,AT – T,"The athlete shook the drink, and the cheerleader the flag.",Gapping,Agent,-5.342936038970947,-3.9319880192096415
+93,19,AT – AT,"The athlete shook the drink, and the waiter the flag.",Gapping,Agent,-5.558042526245117,-4.1234268347422285
+94,19,T – SP violation,"The bartender shook the drink, and the stone the flag.",Gapping,Agent,-5.196141242980957,-3.6781181494394937
+95,20,T – T,"The hound fetches the bird, and the waiter the water.",Gapping,Agent,-4.787043571472168,-2.663609095982143
+96,20,T – AT,"The hound fetches the bird, and the baker the water.",Gapping,Agent,-4.674356937408447,-1.980636088053385
+97,20,AT – T,"The fish fetches the bird, and the waiter the water.",Gapping,Agent,-5.053652286529541,-3.2072743635911207
+98,20,AT – AT,"The fish fetches the bird, and the baker the water.",Gapping,Agent,-4.914490222930908,-2.434368780681065
+99,20,T – SP violation,"The hound fetches the bird, and the car the water.",Gapping,Agent,-4.826780796051025,-2.735785858971732
+100,21,T – T,"The nurse will wash the infant, and the hairstylist will the hair.",Pseudo-gapping,Agent,-4.198437213897705,-2.3042014241218567
+101,21,T – AT,"The nurse will wash the infant, and the banker will the hair.",Pseudo-gapping,Agent,-5.075159549713135,-3.383587905338832
+102,21,AT – T,"The carpenter will wash the infant, and the hairstylist will the hair.",Pseudo-gapping,Agent,-4.251952648162842,-2.945778250694275
+103,21,AT – AT,"The carpenter will wash the infant, and the banker will the hair.",Pseudo-gapping,Agent,-5.026247978210449,-3.751100165503366
+104,21,T – SP violation,"The nurse will wash the infant, and the jacket will the hair. ",Pseudo-gapping,Agent,-5.36276912689209,-3.812001773289272
+105,22,T – T,"The student will hear the lecture, and the nanny will the baby.",Pseudo-gapping,Agent,-4.491038799285889,-1.9205356597900392
+106,22,T – AT,"The student will hear the lecture, and the driver will the baby.",Pseudo-gapping,Agent,-4.927486896514893,-2.7234507288251604
+107,22,AT – T,"The soldier will hear the lecture, and the nanny will the baby.",Pseudo-gapping,Agent,-4.701484203338623,-1.960864543914795
+108,22,AT – AT,"The soldier will hear the lecture, and the driver will the baby.",Pseudo-gapping,Agent,-4.909279823303223,-2.766057116644723
+109,22,T – SP violation,"The student will hear the lecture, and the moon will the baby.",Pseudo-gapping,Agent,-5.202282428741455,-3.629852907998221
+110,23,T – T,"The parent will give a present, and the teacher will the homework.",Pseudo-gapping,Agent,-4.699505805969238,-2.7909477097647533
+111,23,T – AT,"The parent will give a present, and the president will the homework.",Pseudo-gapping,Agent,-5.294131278991699,-3.981216873441424
+112,23,AT – T,"The cook will give a present, and the teacher will the homework.",Pseudo-gapping,Agent,-5.034041881561279,-3.14350962638855
+113,23,AT – AT,"The cook will give a present, and the president will the homework.",Pseudo-gapping,Agent,-5.392845630645752,-3.841912031173706
+114,23,T – SP violation,"The parent will give a present, and the bird will the homework.",Pseudo-gapping,Agent,-5.195344924926758,-3.9313342571258554
+115,24,T – T,"The sergeant will assign a mission, and the boss will a job.",Pseudo-gapping,Agent,-4.880313396453857,-2.5560501984187534
+116,24,T – AT,"The sergeant will assign a mission, and the father will a job.",Pseudo-gapping,Agent,-4.960080146789551,-3.328207731246948
+117,24,AT – T,"The swimmer will assign a mission, and the boss will a job.",Pseudo-gapping,Agent,-4.870265960693359,-3.414677143096924
+118,24,AT – AT,"The swimmer will assign a mission, and the father will a job.",Pseudo-gapping,Agent,-4.952610492706299,-3.8598476818629672
+119,24,T – SP violation,"The sergeant will assign a mission, and the duck will a job.",Pseudo-gapping,Agent,-5.165806770324707,-3.1762173175811768
+120,25,T – T,"The child will lend a pen, and the usurer will the money.",Pseudo-gapping,Agent,-4.611095428466797,-3.5715457280476888
+121,25,T – AT,"The child will lend a pen, and the artist will the money.",Pseudo-gapping,Agent,-4.924663066864014,-3.70256621497018
+122,25,AT – T,"The traveller will lend a pen, and the usurer will the money.",Pseudo-gapping,Agent,-4.8249616622924805,-2.694642424583435
+123,25,AT – AT,"The traveller will lend a pen, and the artist will the money.",Pseudo-gapping,Agent,-5.008638381958008,-3.0261186599731444
+124,25,T – SP violation,"The child will lend a pen, and the computer will the money.",Pseudo-gapping,Agent,-5.104726791381836,-3.8899130821228023
+125,26,T – T,"The journalist writes an article, and the professor a book.",Gapping,Patient,-4.143631935119629,-1.647472063700358
+126,26,T – AT,"The journalist writes an article, and the professor a magazine.",Gapping,Patient,-4.719871044158936,-2.427903493245443
+127,26,AT – T,"The journalist writes a song, and the professor a book.",Gapping,Patient,-4.532803058624268,-2.29271399974823
+128,26,AT – AT,"The journalist writes a song, and the professor a magazine. ",Gapping,Patient,-5.34361457824707,-2.909624973932902
+129,26,T – SP violation,"The journalist writes an article, and the professor an apple.",Gapping,Patient,-5.212647438049316,-2.7996882597605386
+130,27,T – T,"The violinist will play the violin, and the musician a song.",Gapping,Patient,-3.767536640167236,-1.930878235743596
+131,27,T – AT,"The violinist will play the violin, and the musician soccer.",Gapping,Patient,-4.245248317718506,-2.374122977256775
+132,27,AT – T,"The violinist will play the trumpet, and the musician a song.",Gapping,Patient,-4.217348098754883,-2.4082669478196363
+133,27,AT – AT,"The violinist will play the trumpet, and the musician soccer.",Gapping,Patient,-4.611973285675049,-2.66504434744517
+134,27,T – SP violation,"The violinist will play the violin, and the musician the water.",Gapping,Patient,-4.040232658386231,-2.095673304337722
+135,28,T – T,"The florist sells flowers, and the butcher meat.",Gapping,Patient,-3.871311902999878,-2.320268472035726
+136,28,T – AT,"The florist sells flowers, and the butcher weapons.",Gapping,Patient,-4.155243396759033,-2.6616472403208413
+137,28,AT – T,"The florist sells bikes, and the butcher meat.",Gapping,Patient,-5.156100273132324,-2.8166699012120566
+138,28,AT – AT,"The florist sells bikes, and the butcher weapons.",Gapping,Patient,-5.230945110321045,-3.316250443458557
+139,28,T – SP violation,"The florist sells flowers, and the butcher the air.",Gapping,Patient,-4.136190891265869,-3.371649962205153
+140,29,T – T,"The knight holds the sword, and the champion the cup.",Gapping,Patient,-4.110290050506592,-2.140806714693705
+141,29,T – AT,"The knight holds the sword, and the champion the guitar.",Gapping,Patient,-4.398294925689697,-2.4303861061731973
+142,29,AT – T,"The knight holds the camera, and the champion the cup.",Gapping,Patient,-4.9638671875,-3.217023730278015
+143,29,AT – AT,"The knight holds the camera, and the champion the guitar.",Gapping,Patient,-4.957174777984619,-3.05873433748881
+144,29,T – SP violation,"The knight holds the sword, and the champion the rain.",Gapping,Patient,-4.651882648468018,-3.556977947552999
+145,30,T – T,"The businessman is reading the report, and the customer the menu.",Gapping,Patient,-5.141022682189941,-3.1788160617534933
+146,30,T – AT,"The businessman is reading the report, and the customer the music.",Gapping,Patient,-5.364753246307373,-3.405807751875657
+147,30,AT – T,"The businessman is reading fables, and the customer the menu.",Gapping,Patient,-5.587285995483398,-3.464373001685509
+148,30,AT – AT,"The businessman is reading fables, and the customer the music.",Gapping,Patient,-5.367941379547119,-3.1774888038635254
+149,30,T – SP violation,"The businessman is reading the report, and the customer the cat.",Gapping,Patient,-5.396385669708252,-2.8403541491581845
+150,31,T – T,"The astronomer was observing the stars, and the teacher her pupils.",Gapping,Patient,-4.506170272827148,-2.9216286952678976
+151,31,T – AT,"The astronomer was observing the stars, and the teacher her sunglasses.",Gapping,Patient,-5.405896663665772,-3.963334853832538
+152,31,AT – T,"The astronomer was observing the plants, and the teacher her pupils.",Gapping,Patient,-5.247631549835205,-3.2382433597858133
+153,31,AT – AT,"The astronomer was observing the plants, and the teacher her sunglasses.",Gapping,Patient,-6.034897327423096,-4.380995200230525
+154,31,T – SP violation,"The astronomer was observing the plants, and the teacher her problems.",Gapping,Patient,-5.773677349090576,-3.827048558455247
+155,32,T – T,"The mechanic is renting a truck, and the manager a room.",Gapping,Patient,-4.82757043838501,-2.1563160760062083
+156,32,T – AT,"The mechanic is renting a truck, and the manager a kayak.",Gapping,Patient,-4.669150352478027,-1.238172084093094
+157,32,AT – T,"The mechanic is renting a boat, and the manager a room.",Gapping,Patient,-4.865585803985596,-2.137114558901106
+158,32,AT – AT,"The mechanic is renting a boat, and the manager a kayak.",Gapping,Patient,-4.4925642013549805,-0.9819440841674804
+159,32,T – SP violation,"The mechanic is renting a truck, and the manager the idea.",Gapping,Patient,-4.992071151733398,-2.563339573996408
+160,33,T – T,"The scientist reported a finding, and the witness a crime.",Gapping,Patient,-5.1548686027526855,-3.926244815190633
+161,33,T – AT,"The scientist reported a finding, and the witness a birth.",Gapping,Patient,-5.610427379608154,-4.876951376597087
+162,33,AT – T,"The scientist reported a marriage, and the witness a crime.",Gapping,Patient,-5.304708480834961,-4.492281476656596
+163,33,AT – AT,"The scientist reported a marriage, and the witness a birth.",Gapping,Patient,-5.029660224914551,-4.522006034851074
+164,33,T – SP violation,"The scientist reported a finding, and the witness the water.",Gapping,Patient,-5.491532325744629,-5.169943332672119
+165,34,T – T,"The soldier dug  a trench, and the dog a hole.",Gapping,Patient,-5.964269161224365,-2.2060492436091104
+166,34,T – AT,"The soldier dug a trench, and the dog a grave.",Gapping,Patient,-4.302257537841797,-2.3768793741861978
+167,34,AT – T,"The soldier dug a pool, and the dog a hole.",Gapping,Patient,-4.687941074371338,-2.3680975834528604
+168,34,AT – AT,"The soldier dug a pool, and the dog a grave.",Gapping,Patient,-4.814791679382324,-2.5059765179951987
+169,34,T – SP violation,"The soldier dug a trench, and the dog a person.",Gapping,Patient,-4.852632522583008,-2.604502479235331
+170,35,T – T,"The waiter has delivered a drink, and the postman a mail.",Gapping,Patient,-4.420994281768799,-2.6875694479261125
+171,35,T – AT,"The waiter has delivered a drink, and the postman a punch.",Gapping,Patient,-4.710104465484619,-3.024113552910941
+172,35,AT – T,"The waiter has delivered a speech, and the postman a mail.",Gapping,Patient,-4.678657531738281,-3.4027883325304304
+173,35,AT – AT,"The waiter has delivered a speech, and the postman a punch.",Gapping,Patient,-4.847481727600098,-3.5530330453600203
+174,35,T – SP violation,"The waiter has delivered a drink, and the postman the sun. ",Gapping,Patient,-5.039622783660889,-3.890495164053781
+175,36,T – T,"The cook will mix ingredients, and the chemist will the substances.",Pseudo-gapping,Patient,-5.0684895515441895,-3.2938869182880106
+176,36,T – AT,"The cook will mix ingredients, and the chemist will the music.",Pseudo-gapping,Patient,-5.236281394958496,-3.179381333864652
+177,36,AT – T,"The cook will mix the paint, and the chemist will the substances.",Pseudo-gapping,Patient,-5.219449043273926,-3.5134351594107494
+178,36,AT – AT,"The cook will mix the paint, and the chemist will the music.",Pseudo-gapping,Patient,-5.22185754776001,-3.398435320172991
+179,36,T – SP violation,"The cook will mix ingredients, and the chemist will the dog.",Pseudo-gapping,Patient,-5.406130313873291,-2.5379622899569
+180,37,T – T,"The child will drink the coke, and the student will the coffee.",Pseudo-gapping,Patient,-4.350747108459473,-2.4993006706237795
+181,37,T – AT,"The child will drink the coke, and the student will the gasoline.",Pseudo-gapping,Patient,-4.533371448516846,-2.6362528800964355
+182,37,AT – T,"The child will drink the beer, and the student will the coffee.",Pseudo-gapping,Patient,-4.253474235534668,-2.720754998070853
+183,37,AT – AT,"The child will drink the beer, and the student will the gasoline. ",Pseudo-gapping,Patient,-4.6811699867248535,-3.0580216475895474
+184,37,T – SP violation,"The child will drink the coke, and the student will the music.",Pseudo-gapping,Patient,-4.405657768249512,-2.451916122436524
+185,38,T – T,"The child will visit his grandmother, and the tourist will the museum.",Pseudo-gapping,Patient,-4.755860328674316,-2.70173066002982
+186,38,T – AT,"The child will visit his grandmother, and the tourist will the patient.",Pseudo-gapping,Patient,-4.903964996337891,-3.52330596106393
+187,38,AT – T,"The child will visit the president, and the tourist will the museum.",Pseudo-gapping,Patient,-4.9820051193237305,-3.628193037850516
+188,38,AT – AT,"The child will visit the president, and the tourist will the patient.",Pseudo-gapping,Patient,-5.058897972106934,-3.878517866134644
+189,38,T – SP violation,"The child will visit the president, and the tourist will the pen.",Pseudo-gapping,Patient,-5.2180023193359375,-4.114794935498919
+190,39,T – T,"The child will tell a lie, and the grandfather will a story.",Pseudo-gapping,Patient,-4.53148078918457,-2.523159537996565
+191,39,T – AT,"The child will tell a lie, and the grandfather will the strategy.",Pseudo-gapping,Patient,-4.920608997344971,-3.031559637614659
+192,39,AT – T,"The child will tell the verdict, and the grandfather will a story.",Pseudo-gapping,Patient,-5.124862194061279,-3.167101996285574
+193,39,AT – AT,"The child will tell the verdict, and the grandfather will the strategy.",Pseudo-gapping,Patient,-5.134457111358643,-3.745283842086792
+194,39,T – SP violation,"The child will tell a lie, and the grandfather will a cake. ",Pseudo-gapping,Patient,-4.9651970863342285,-3.008728231702532
+195,40,T – T,"The refugee will find shelter, and the animal will the food.",Pseudo-gapping,Patient,-4.765095233917236,-3.5137459681584287
+196,40,T – AT,"The refugee will find shelter, and the animal will the map.",Pseudo-gapping,Patient,-5.26789140701294,-3.529402549450214
+197,40,AT – T,"The refugee will find the doll, and the animal will the food.",Pseudo-gapping,Patient,-5.246647357940674,-3.995765107018607
+198,40,AT – AT,"The refugee will find the doll, and the animal will the map.",Pseudo-gapping,Patient,-5.390080451965332,-3.563932044165475
+199,40,T – SP violation,"The refugee will find shelter, and the animal will the sadness.",Pseudo-gapping,Patient,-5.347496509552002,-3.974911432999831
+200,41,T – T,"The waiter will open the bottle, and the child will the present.",Pseudo-gapping,Patient,-4.379007339477539,-3.6316737788064137
+201,41,T – AT,"The waiter will open the bottle, and the child will the congress.",Pseudo-gapping,Patient,-5.0582427978515625,-3.5800653185163225
+202,41,AT – T,"The waiter will open the sarcophagus, and the child will the present.",Pseudo-gapping,Patient,-4.018643856048584,-2.6929792298210997
+203,41,AT – AT,"The waiter will open the sarcophagus, and the child will the congress.",Pseudo-gapping,Patient,-4.603142738342285,-2.828765471776326
+204,41,T – SP violation,"The waiter will open the bottle, and the child will the sun. ",Pseudo-gapping,Patient,-4.779856204986572,-3.2628513063703264
+205,42,T – T,"The librarian will stack the books, and the lumberjack will the wood.",Pseudo-gapping,Patient,-3.895038366317749,-2.3045129140218097
+206,42,T – AT,"The librarian will stack the books, and the lumberjack will the suitcase.",Pseudo-gapping,Patient,-4.457602500915527,-2.300837993621826
+207,42,AT – T,"The librarian will stack the supplies, and the lumberjack will the wood.",Pseudo-gapping,Patient,-4.344728469848633,-3.337579536437988
+208,42,AT – AT,"The librarian will stack the supplies, and the lumberjack will the suitcase.",Pseudo-gapping,Patient,-4.904386043548584,-3.144579029083252
+209,42,T – SP violation,"The librarian will stack the books, and the lumberjack will the river.",Pseudo-gapping,Patient,-4.365491390228272,-2.6068580309549967
+210,43,T – T,"The tailor will sew the dress, and the doctor will the wound",Pseudo-gapping,Patient,-4.5186767578125,-2.420523770650228
+211,43,T – AT,"The tailor will sew the dress, and the doctor will the shoe.",Pseudo-gapping,Patient,-4.233103275299072,-1.4563904106616974
+212,43,AT – T,"The tailor will sew the parachute, and the doctor will the wound. ",Pseudo-gapping,Patient,-4.915907382965088,-2.459867477416992
+213,43,AT – AT,"The tailor will sew the parachute, and the doctor will the shoe",Pseudo-gapping,Patient,-5.187357425689697,-2.5792200406392416
+214,43,T – SP violation,"The tailor will sew the dress, and the doctor will the banana.",Pseudo-gapping,Patient,-4.781074047088623,-1.8005337715148926
+215,44,T – T,"The fighter will kick the opponent, and the footballer will the ball.",Pseudo-gapping,Patient,-4.279716968536377,-2.569570916039603
+216,44,T – AT,"The fighter will kick the opponent, and the footballer will the vase.",Pseudo-gapping,Patient,-4.680511474609375,-2.977315051215036
+217,44,AT – T,"The fighter will kick the television, and the footballer will the ball.",Pseudo-gapping,Patient,-4.686943054199219,-3.355800594602312
+218,44,AT – AT,"The fighter will kick the television, and the footballer will the vase.",Pseudo-gapping,Patient,-5.011662483215332,-3.7316998754228874
+219,44,T – SP violation,"The fighter will kick the opponent, and the footballer will the water.",Pseudo-gapping,Patient,-4.886326313018799,-3.454515593392508
+220,45,T – T,"The climber will climb the rock, and the librarian will the ladder.",Pseudo-gapping,Patient,-4.127223491668701,-2.2691864649454754
+221,45,T – AT,"The climber will climb the rock, and the librarian will the tree.",Pseudo-gapping,Patient,-4.153506278991699,-2.163574155171712
+222,45,AT – T,"The climber will climb the staircase, and the librarian will the ladder.",Pseudo-gapping,Patient,-4.104077339172363,-2.4207324345906573
+223,45,AT – AT,"The climber will climb the staircase, and the librarian will the tree.",Pseudo-gapping,Patient,-4.377894401550293,-2.7273496945699054
+224,45,T – SP violation,"The climber will climb the rock, and the librarian will the snow. ",Pseudo-gapping,Patient,-4.399804592132568,-2.610986423492432
+225,46,T – T,"I know the electrician is checking something, but I don’t know what.",Sluicing,Patient,-4.0309648513793945,-2.617174541248995
+226,46,T – AT,"I know the electrician is checking something, but I don’t know who.",Sluicing,Patient,-4.276752471923828,-3.140550220713896
+227,46,AT – T,"I know the electrician is checking someone, but I don’t know what.",Sluicing,Patient,-4.591449737548828,-3.1122650819666244
+228,46,AT – AT,"I know the electrician is checking someone, but I don’t know who.",Sluicing,Patient,-4.463396072387695,-3.0687664536868824
+229,46,T – SP violation,"I know the electrician is checking something, but I don’t know whom.",Sluicing,Patient,-4.497878074645996,-3.3498769086949967
+230,47,T – T,"The dog carried something, but I didn’t know what.",Sluicing,Patient,-4.6679558753967285,-3.8934478759765625
+231,47,T – AT,"The dog carried something, but I didn’t know when.",Sluicing,Patient,-5.225661754608154,-4.799193749060998
+232,47,AT – T,"The dog carried someone, but I didn’t know what.",Sluicing,Patient,-5.175612449645996,-4.191387029794546
+233,47,AT – AT,"The dog carried someone, but I didn’t know when. ",Sluicing,Patient,-5.465301513671875,-4.55316239136916
+234,47,T – SP violation,"The dog carried something, but  I didn’t know whom.",Sluicing,Patient,-6.4587273597717285,-4.730308385995718
+235,48,T – T,"The teenager is hearing something, but his friend doesn’t know what.",Sluicing,Patient,-4.946593761444092,-3.1726412455240887
+236,48,T – AT,"The teenager is hearing something, but his friend doesn’t know who.",Sluicing,Patient,-5.41278600692749,-3.651623662312825
+237,48,AT – T," The teenager is hearing someone, but his friend doesn’t know what. ",Sluicing,Patient,-5.061782836914063,-3.9122223536173504
+238,48,AT – AT,"The teenager is hearing someone, but his friend doesn’t know who.",Sluicing,Patient,-5.18381929397583,-3.662144597371419
+239,48,T – SP violation,"The teenager is hearing something, but his friend doesn’t know  whom.",Sluicing,Patient,-6.314482688903809,-3.999811935424805
+240,49,T – T,"The housewife is mopping something, but Sam doesn’t know what.",Sluicing,Patient,-5.21046781539917,-3.2794045507907867
+241,49,T – AT,"The housewife is mopping something, but Sam doesn’t know who.",Sluicing,Patient,-5.443146228790283,-3.5142626762390137
+242,49,AT – T,"The housewife is mopping someone, but Sam doesn’t know what.",Sluicing,Patient,-5.801940441131592,-3.667339652776718
+243,49,AT – AT,"The housewife is mopping someone, but Sam doesn’t know who.",Sluicing,Patient,-5.710675239562988,-3.6533032953739166
+244,49,T – SP violation,"The housewife is mopping something, but Sam doesn’t know  whom.",Sluicing,Patient,-6.330124855041504,-3.8166021704673767
+245,50,T – T,"The speleologist is examining something, but we don’t know what.",Sluicing,Patient,-4.754624366760254,-2.6989623799043545
+246,50,T – AT,"The speleologist is examining something, but we don’t know who. ",Sluicing,Patient,-5.257350921630859,-3.130685694077436
+247,50,AT – T,"The speleologist is examining someone, but we don’t know what.",Sluicing,Patient,-5.100237846374512,-3.085066739250632
+248,50,AT – AT,"The speleologist is examining someone, but we don’t know who.",Sluicing,Patient,-4.983161926269531,-2.6546248267678654
+249,50,T – SP violation,"The speleologist is examining something, but we don’t know  whom.",Sluicing,Patient,-5.908110618591309,-3.390014311846565
+250,51,T – T,"The businessman paid the bill with his credit card, and the student did with cash.",VP-ellipsis,Instrument,-3.778278589248657,-2.2758189089158
+251,51,T – AT,"The businessman paid the bill with his credit card, and the student did with a bank transfer. ",VP-ellipsis,Instrument,-3.870509386062622,-2.9884243764375387
+252,51,AT – T,"The businessman paid the bill with coins, and the student did with cash. ",VP-ellipsis,Instrument,-4.649913311004639,-2.6049808502197265
+253,51,AT – AT,"The businessman paid the bill with coins, and the student did with a bank transfer. ",VP-ellipsis,Instrument,-4.557083606719971,-3.672675637637868
+254,51,T – SP violation,"The businessman paid the bill with his credit card, and the student did with his hair.",VP-ellipsis,Instrument,-3.899933338165283,-2.275033606423272
+255,52,T – T,"The dog drank water with the bowl, and the man did with the glass.",VP-ellipsis,Instrument,-3.872605562210083,-2.2761579155921936
+256,52,T – AT,"The dog drank water with the bowl, and the man did with the dish. ",VP-ellipsis,Instrument,-4.148946762084961,-2.4105738401412964
+257,52,AT – T,"The dog drank water with the bottle, and the man did with the glass. ",VP-ellipsis,Instrument,-4.189762592315674,-2.0520219802856445
+258,52,AT – AT,"The dog drank water with the bottle, and the man did with the dish. ",VP-ellipsis,Instrument,-4.30309009552002,-2.510263741016388
+259,52,T – SP violation,"The dog drank water with the bowl, and the man did with the ball. ",VP-ellipsis,Instrument,-4.246269226074219,-2.526778817176819
+260,53,T – T,"The mother prepares the food with the microwave, the cook will with the oven. ",VP-ellipsis,Instrument,-4.506277084350586,-3.225837230682373
+261,53,T – AT,"The mother prepares the food with the microwave, the cook will with the kiln. ",VP-ellipsis,Instrument,-4.705941200256348,-2.987210141287909
+262,53,AT – T,"The mother prepares the food with the bonfire, the cook will with the oven.",VP-ellipsis,Instrument,-4.524320125579834,-2.9069737328423395
+263,53,AT – AT,"The mother prepares the food with the bonfire, the cook will with the kiln.",VP-ellipsis,Instrument,-4.527241230010986,-2.4040063858032226
+264,53,T – SP violation,"The mother prepares the food with the microwave, the cook will with the madness. ",VP-ellipsis,Instrument,-5.292731761932373,-4.447555989027023
+265,54,T – T,"The singer performed the music with the guitar, the musician will with the bass. ",VP-ellipsis,Instrument,-4.775527000427246,-2.6843804717063904
+266,54,T – AT,"The singer performed the music with the guitar, the musician will with the headphones. ",VP-ellipsis,Instrument,-5.073744297027588,-2.6086397451512955
+267,54,AT – T,"The singer performed the music with the megaphone, the musician will with the bass. ",VP-ellipsis,Instrument,-4.67133903503418,-2.52216378847758
+268,54,AT – AT,"The singer performed the music with the megaphone, the musician will with the headphones. ",VP-ellipsis,Instrument,-4.689676284790039,-2.30652874394467
+269,54,T – SP violation,"The singer performed the music with the guitar, the musician will with the pocket. ",VP-ellipsis,Instrument,-5.387555122375488,-3.409633547067642
+270,55,T – T,"The doctor healed the patient with the antibiotic, and the osteopath will with a massage.",VP-ellipsis,Instrument,-4.685559272766113,-2.2988491966610862
+271,55,T – AT,"The doctor healed the patient with the antibiotic, and the osteopath will with soda. ",VP-ellipsis,Instrument,-5.219776153564453,-2.805013084411621
+272,55,AT – T,"The doctor healed the patient with the gasoline, and the osteopath will with a massage. ",VP-ellipsis,Instrument,-5.130259037017822,-2.850203108787537
+273,55,AT – AT,"The doctor healed the patient with the gasoline, and the osteopath will with soda. ",VP-ellipsis,Instrument,-5.345511436462402,-3.228387531481291
+274,55,T – SP violation,"The doctor healed the patient with the antibiotic, and the osteopath will with sunglasses. ",VP-ellipsis,Instrument,-5.235100746154785,-2.825349187850952
+275,56,T – T,"The father drank milk with the cup, and the newborn did the same thing with the bottle.",Do-x/ Do-so anaphora,Instrument,-3.953911781311035,-2.2308108681126644
+276,56,T – AT,"The father drank milk with the cup, and the newborn did the same thing with the glass. ",Do-x/ Do-so anaphora,Instrument,-4.222988128662109,-2.202558241392437
+277,56,AT – T,"The father drank milk with the dish, and the newborn did the same thing with the bottle.  ",Do-x/ Do-so anaphora,Instrument,-4.252942085266113,-2.475566738530209
+278,56,AT – AT,"The father drank milk with the dish, and the newborn did the same thing with the glass. ",Do-x/ Do-so anaphora,Instrument,-4.205889225006104,-2.555751926020572
+279,56,T – SP violation,"The father drank milk with the cup, and the newborn did the same thing with the painting. ",Do-x/ Do-so anaphora,Instrument,-4.688753604888916,-2.7092744425723425
+280,57,T – T,"The mechanic fixed the bike with a wrench, and so did the cyclist with a screwdriver.  ",Do-x/ Do-so anaphora,Instrument,-4.226770401000977,-1.097705909184047
+281,57,T – AT,"The mechanic fixed the bike with a wrench, and so did the cyclist with a spoon. ",Do-x/ Do-so anaphora,Instrument,-4.5570831298828125,-1.76116607063695
+282,57,AT – T,"The mechanic fixed the bike with a tape, and so did the cyclist with a screwdriver. ",Do-x/ Do-so anaphora,Instrument,-4.2760162353515625,-1.77912700176239
+283,57,AT – AT,"The mechanic fixed the bike with a tape, and the cyclist did that with a spoon. ",Do-x/ Do-so anaphora,Instrument,-4.816202640533447,-2.3957114219665527
+284,57,T – SP violation,"The mechanic fixed the bike with a wrench, and the cyclist did that with the potato. ",Do-x/ Do-so anaphora,Instrument,-5.074363231658936,-2.1213362342432927
+285,58,T – T,"The child played with toys, and the teenager did so with videogames too.",Do-x/ Do-so anaphora,Instrument,-4.276750564575195,-0.9723378349752988
+286,58,T – AT,"The child played with toys, and the teenager did so with food too.",Do-x/ Do-so anaphora,Instrument,-4.376622676849365,-1.4238241831461589
+287,58,AT – T,"The child played with money, and the teenager did so with videogames too.",Do-x/ Do-so anaphora,Instrument,-4.508760452270508,-1.6194383957806755
+288,58,AT – AT,"The child played with money, and the teenager did so with food too.",Do-x/ Do-so anaphora,Instrument,-4.523720264434815,-1.875958220163981
+289,58,T – SP violation,"The child played with toys, and the teenager did so with the sun too.",Do-x/ Do-so anaphora,Instrument,-4.40986442565918,-2.362520813941956
+290,59,T – T," The terrorist escaped with weapons, and so did civilians with supplies. ",Do-x/ Do-so anaphora,Instrument,-5.167405605316162,-2.4383526948782115
+291,59,T – AT,"The terrorist escaped with weapons, and so did civilians with the jewelry. ",Do-x/ Do-so anaphora,Instrument,-5.511826992034912,-2.733277831758772
+292,59,AT – T,"The terrorist escaped with flowers, and so did civilians with supplies.",Do-x/ Do-so anaphora,Instrument,-5.630446910858154,-2.843502814953144
+293,59,AT – AT,"The terrorist escaped with flowers, and so did civilians with the jewelry.",Do-x/ Do-so anaphora,Instrument,-5.605682373046875,-3.141423429761614
+294,59,T – SP violation," The terrorist escaped with weapons, and so did civilians with the sea.",Do-x/ Do-so anaphora,Instrument,-5.301522731781006,-3.748086793082101
+295,60,T – T,"The tailor sewed with the sewing-machine, and the doctor did the same thing with the needle.",Do-x/ Do-so anaphora,Instrument,-3.482713222503662,-0.9990965019572864
+296,60,T – AT,"The tailor sewed with the sewing-machine, and the doctor did the same thing with scissors.",Do-x/ Do-so anaphora,Instrument,-3.7607250213623047,-0.7006158414094344
+297,60,AT – T,"The tailor sewed with the pen, and the doctor did the same thing with the needle.",Do-x/ Do-so anaphora,Instrument,-3.682896137237549,-1.4538124322891235
+298,60,AT – AT,"The tailor sewed with the pen, and the doctor did the same thing with scissors.",Do-x/ Do-so anaphora,Instrument,-4.070915699005127,-1.2397855804080056
+299,60,T – SP violation,"The tailor sewed with the sewing-machine, and the doctor did the same thing with the river.",Do-x/ Do-so anaphora,Instrument,-4.046914100646973,-1.255565513264049
+300,61,T – T,"The child draws flowers with the pencil, and the painter with the brush.",Gapping,Instrument,-3.877788543701172,-1.639200115203857
+301,61,T – AT,"The child draws flowers with the pencil, and the painter with the highlighter. ",Gapping,Instrument,-4.357067584991455,-2.042444795370102
+302,61,AT – T,"The child draws flowers with the scalpel, and the painter with the brush.",Gapping,Instrument,-3.9629995822906494,-1.8353179395198824
+303,61,AT – AT,"The child draws flowers with the scalpel, and the painter with the highlighter.",Gapping,Instrument,-4.046906471252441,-2.201231928432689
+304,61,T – SP violation,"The child draws flowers with the pencil, and the painter with the snow.",Gapping,Instrument,-4.883066654205322,-3.2042709668477376
+305,62,T – T,"The hairstylist fixes the hair with the hairdryer, and the barber with the gel.",Gapping,Instrument,-3.1557421684265137,-1.05073222247037
+306,62,T – AT,"The hairstylist fixes the hair with the hairdryer, and the barber with Vaseline.",Gapping,Instrument,-3.2444636821746826,-0.6305864168250043
+307,62,AT – T,"The hairstylist fixes the hair with the screwdriver, and the barber with the gel.",Gapping,Instrument,-3.6389858722686768,-1.1357785354961047
+308,62,AT – AT,"The hairstylist fixes the hair with the screwdriver, and the barber with Vaseline.",Gapping,Instrument,-3.6413633823394775,-0.7850413529769235
+309,62,T – SP violation,"The hairstylist fixes the hair with the hairdryer, and the barber with the hat. ",Gapping,Instrument,-3.174361228942871,-0.7624439326199618
+310,63,T – T,"The footballer hits the ball with his foot, and the tennis player with the racket. ",Gapping,Instrument,-3.751439332962036,-1.6101811197068956
+311,63,T – AT,"The footballer hits the ball with his foot, and the tennis player with the hoe. ",Gapping,Instrument,-4.084685325622559,-1.972733285692003
+312,63,AT – T,"The footballer hits the ball with the bat, and the tennis player with the racket.",Gapping,Instrument,-3.5373034477233887,-1.7768088711632624
+313,63,AT – AT,"The footballer hits the ball with the bat, and the tennis player with the hoe.",Gapping,Instrument,-3.9121923446655273,-2.066840410232544
+314,63,T – SP violation,"The footballer hits the ball with his foot, and the tennis player with the aunt. ",Gapping,Instrument,-4.8744730949401855,-2.844902992248535
+315,64,T – T,"The dog digs a hole with its paw, and the farmer with the hoe.",Gapping,Instrument,-3.46506142616272,-1.5110526837800675
+316,64,T – AT,"The dog digs a hole with its paw, and the farmer with the pen.",Gapping,Instrument,-3.957652091979981,-1.9464651743570964
+317,64,AT – T,"The dog digs a hole with its tail, and the farmer with the hoe.",Gapping,Instrument,-3.5506792068481445,-1.787349541982015
+318,64,AT – AT,"The dog digs a hole with its tail, and the farmer with the pen.",Gapping,Instrument,-4.068179130554199,-2.2489611120784985
+319,64,T – SP violation,"The dog digs a hole with its paw, and the farmer with the wind.",Gapping,Instrument,-3.962656974792481,-2.0761423110961914
+320,65,T – T,"The child crossed the park with the bicycle, and the skater with  rollerblades.",Gapping,Instrument,-4.597943305969238,-2.0168258723090675
+321,65,T – AT,"The child crossed the park with the bicycle, and the skater with the tricycle.",Gapping,Instrument,-3.835275173187256,-1.5940587785508895
+322,65,AT – T,"The child crossed the park with the truck, and the skater with rollerblades.",Gapping,Instrument,-4.203319549560547,-2.546107853160185
+323,65,AT – AT,"The child crossed the park with the truck, and the skater with the tricycle.",Gapping,Instrument,-4.0309739112854,-1.9370005925496416
+324,65,T – SP violation,"The child crossed the park with the bicycle, and the skater with the jacket.",Gapping,Instrument,-4.118705749511719,-2.521770417690277
+325,66,T – T,"The tourist will travel with the boat, and the billionaire will with the yacht.",Pseudo-gapping,Instrument,-4.304229259490967,-2.6122469902038574
+326,66,T – AT,"The tourist will travel with the boat, and the billionaire will with the kayak.",Pseudo-gapping,Instrument,-4.275640964508057,-2.00807433658176
+327,66,AT – T,"The tourist will travel with the dinghy, and the billionaire will with the yacht.",Pseudo-gapping,Instrument,-4.305929660797119,-2.123004595438639
+328,66,AT – AT,"The tourist will travel with the dinghy, and the billionaire will with the kayak. ",Pseudo-gapping,Instrument,-4.554183483123779,-1.6980782985687255
+329,66,T – SP violation,"The tourist will travel with the boat, and the billionaire will with the sadness.",Pseudo-gapping,Instrument,-5.130644798278809,-3.705832839012146
+330,67,T – T,"The fisherman will catch fish with the net, and the grandfather will with the fishing rod. ",Pseudo-gapping,Instrument,-4.007171630859375,-1.986034016860159
+331,67,T – AT,"The fisherman will catch fish with the net, and the grandfather will with the gun. ",Pseudo-gapping,Instrument,-4.247593879699707,-2.3979985449049206
+332,67,AT – T,"The fisherman will catch fish with the hammer, and the grandfather will with the fishing rod.",Pseudo-gapping,Instrument,-3.9192841053009033,-1.9097430078606856
+333,67,AT – AT,"The fisherman will catch fish with the hammer, and the grandfather will with the gun.",Pseudo-gapping,Instrument,-4.184680938720703,-2.1556149588690863
+334,67,T – SP violation,"The fisherman will catch fish with the net, and the grandfather will with the croissant. ",Pseudo-gapping,Instrument,-4.174304008483887,-1.827588762555804
+335,68,T – T,"The photographer will take a picture with the camera, and the student will with the phone.",Pseudo-gapping,Instrument,-3.26871919631958,-1.7869542439778645
+336,68,T – AT,"The photographer will take a picture with the camera, and the student will with the computer.",Pseudo-gapping,Instrument,-3.288637399673462,-1.7489172617594402
+337,68,AT – T,"The photographer will take a picture with the tablet, and the student will with the phone.",Pseudo-gapping,Instrument,-3.5470449924468994,-2.034196058909098
+338,68,AT – AT,"The photographer will take a picture with the tablet, and the student will with the computer.",Pseudo-gapping,Instrument,-3.6633358001708975,-2.0785228411356607
+339,68,T – SP violation,"The photographer will take a picture with the camera, and the student will with the pasta.",Pseudo-gapping,Instrument,-3.789307117462158,-2.115569365651984
+340,69,T – T,"The beautician will hydrate the skin with cream, and the masseuse will with oil.",Pseudo-gapping,Instrument,-4.085519790649414,-1.2581143171890925
+341,69,T – AT,"The beautician will hydrate the skin with cream, and the masseuse will with gel. ",Pseudo-gapping,Instrument,-4.285025119781494,-1.177865505218506
+342,69,AT – T,"The beautician will hydrate the skin with the acid, and the masseuse will with oil. ",Pseudo-gapping,Instrument,-4.412161827087402,-1.5535223484039309
+343,69,AT – AT,"The beautician will hydrate the skin with the acid, and the masseuse will with gel.",Pseudo-gapping,Instrument,-4.44480562210083,-1.6494173010190327
+344,69,T – SP violation,"The beautician will hydrate the skin with cream, and the masseuse will with tobacco.",Pseudo-gapping,Instrument,-4.6337480545043945,-1.5511267496191936
+345,70,T – T,"The mother will water the plants with the watering can, the farmer will with the hose.",Pseudo-gapping,Instrument,-3.957951307296753,-2.46130381132427
+346,70,T – AT,"The mother will water the plants with the watering can, the farmer will with the bucket.",Pseudo-gapping,Instrument,-3.964831113815308,-2.2236719382436654
+347,70,AT – T,"The mother will water the plants with the bottle, the farmer will with the hose.",Pseudo-gapping,Instrument,-4.086156845092773,-2.69814536150764
+348,70,AT – AT,"The mother will water the plants with the bottle, the farmer will with the bucket.",Pseudo-gapping,Instrument,-4.07774019241333,-2.4575151836170868
+349,70,T – SP violation,"The mother will water the plants with the watering can, the farmer will with the hoe.",Pseudo-gapping,Instrument,-3.838219165802002,-2.132686352729797
+350,71,T – T,"The policeman is hitting the demonstrator with something, but I don’t know what with.",Sluice-Stranding,Instrument,-4.66741943359375,-2.5658273696899414
+351,71,T – AT,"The policeman is hitting the demonstrator with something, but I don’t know who with.",Sluice-Stranding,Instrument,-4.770669937133789,-2.8971031427383425
+352,71,AT – T,"The policeman is hitting the demonstrator with someone, but I don’t know what with.",Sluice-Stranding,Instrument,-5.125687122344971,-3.08261103630066
+353,71,AT – AT,"The policeman is hitting the demonstrator with someone, but I don’t know who with. ",Sluice-Stranding,Instrument,-5.169712066650391,-3.05170578956604
+354,71,T – SP violation,"The policeman is hitting the demonstrator with something, but I don’t know where with.",Sluice-Stranding,Instrument,-4.831783294677734,-3.0179969549179075
+355,72,T – T,"The journalist is writing an article with something, but I’m not sure what with.",Sluice-Stranding,Instrument,-4.598575115203857,-3.579285913043552
+356,72,T – AT,"The journalist is writing an article with something, but I’m not sure who with.",Sluice-Stranding,Instrument,-4.840742588043213,-3.9907559553782144
+357,72,AT – T,"The journalist is writing an article with someone, but I’m not sure what with.",Sluice-Stranding,Instrument,-4.582922458648682,-3.572974496417576
+358,72,AT – AT,"The journalist is writing an article with someone, but I’m not sure who with.",Sluice-Stranding,Instrument,-4.561352252960205,-3.505586094326443
+359,72,T – SP violation,"The journalist is writing an article with something, but I’m not sure how much with. ",Sluice-Stranding,Instrument,-4.870971202850342,-3.7168617750469006
+360,73,T – T,"The gardener cut the grass with something, but she didn’t know what with.",Sluice-Stranding,Instrument,-4.670670509338379,-3.073204623328315
+361,73,T – AT,"The gardener cut the grass with something, but she didn’t know who with.",Sluice-Stranding,Instrument,-4.836507797241211,-3.465922408633762
+362,73,AT – T,"The gardener cut the grass with someone, but she didn’t know what with.",Sluice-Stranding,Instrument,-4.980985641479492,-3.303821908103095
+363,73,AT – AT,"The gardener cut the grass with someone, but she didn’t know who with.",Sluice-Stranding,Instrument,-4.949368476867676,-3.28295628229777
+364,73,T – SP violation,"The gardener cut the grass with something, but she didn’t know where with.",Sluice-Stranding,Instrument,-4.823032379150391,-3.444437901178996
+365,74,T – T,"The photographer was capturing the image with something, but he doesn’t know what with.",Sluice-Stranding,Instrument,-5.00200891494751,-4.3246800899505615
+366,74,T – AT,"The photographer was capturing the image with something, but he doesn’t know who with.",Sluice-Stranding,Instrument,-5.137924671173096,-4.620746930440267
+367,74,AT – T,"The photographer was capturing the image with someone, but he doesn’t know what with. ",Sluice-Stranding,Instrument,-5.216740608215332,-4.648009697596232
+368,74,AT – AT,"The photographer was capturing the image with someone, but he doesn’t know who with.",Sluice-Stranding,Instrument,-5.062211036682129,-4.341854280895657
+369,74,T – SP violation,"The photographer was capturing the image with something, but he doesn’t know where with.",Sluice-Stranding,Instrument,-5.2967705726623535,-4.648529556062487
+370,75,T – T,"The cook flipped the pancake with something, but I didn’t know what with.",Sluice-Stranding,Instrument,-5.0288801193237305,-3.9265153143141
+371,75,T – AT,"The cook flipped the pancake with something, but I didn’t know who with.",Sluice-Stranding,Instrument,-5.218617916107178,-4.26481819152832
+372,75,AT – T,"The cook flipped the pancake with someone, but I didn’t know what with. ",Sluice-Stranding,Instrument,-5.3733811378479,-4.3255238268110485
+373,75,AT – AT,"The cook flipped the pancake with someone, but I didn’t know who with.",Sluice-Stranding,Instrument,-5.243366718292236,-4.289074129528469
+374,75,T – SP violation,"The cook flipped the pancake with something, but I didn’t know how much with.",Sluice-Stranding,Instrument,-5.352626800537109,-4.004311486294395
+375,76,T – T,"The housewife cleaned the table in the kitchen, but the waiter didn’t in the restaurant.",VP-ellipsis,Location,-4.576033115386963,-3.5248120069503783
+376,76,T – AT,"The housewife cleaned the table in the kitchen, but the waiter didn’t in the classroom. ",VP-ellipsis,Location,-4.884038925170898,-4.010006260871887
+377,76,AT – T,"The housewife cleaned the table in the armory, but the waiter didn’t in the restaurant.",VP-ellipsis,Location,-4.859828472137451,-3.438870452699207
+378,76,AT – AT,"The housewife cleaned the table in the armory, but the waiter didn’t in the classroom.",VP-ellipsis,Location,-5.029653072357178,-3.857178120386033
+379,76,T – SP violation,"The housewife cleaned the table in the kitchen, but the waiter didn’t in the cat.",VP-ellipsis,Location,-5.156328678131104,-4.349615454673767
+380,77,T – T,"The student used the computer in the library, and the professor did in the office.",VP-ellipsis,Location,-3.634968280792236,-1.940845068763284
+381,77,T – AT,"The student used the computer in the library, and the professor did in the pub.",VP-ellipsis,Location,-3.999840259552002,-2.297971108380486
+382,77,AT – T,"The student used the computer in the helicopter, and the professor did in the office.",VP-ellipsis,Location,-4.181095600128174,-2.751824266770307
+383,77,AT – AT,"The student used the computer in the helicopter, and the professor did in the pub.",VP-ellipsis,Location,-4.4671406745910645,-2.743762773625991
+384,77,T – SP violation,"The student used the computer in the library, and the professor did in the shoes.",VP-ellipsis,Location,-4.178253173828125,-3.020022083731259
+385,78,T – T,"The soldier celebrated the victory in the battlefield, the athlete will on the podium.",VP-ellipsis,Location,-4.814099788665772,-3.726545631885529
+386,78,T – AT,"The soldier celebrated the victory in the battlefield, the athlete will in the car.",VP-ellipsis,Location,-4.969061374664307,-4.069841772317886
+387,78,AT – T,"The soldier celebrated the victory in the university, the athlete will on the podium.",VP-ellipsis,Location,-5.180377006530762,-4.129992663860321
+388,78,AT – AT,"The soldier celebrated the victory in the university, the athlete will in the car. ",VP-ellipsis,Location,-5.40310525894165,-4.371507048606873
+389,78,T – SP violation,"The soldier celebrated the victory in the battlefield, the athlete will on the orange.",VP-ellipsis,Location,-5.485273838043213,-4.553840398788452
+390,79,T – T,"The president delivered a speech in parliament, the priest did in the church.",VP-ellipsis,Location,-4.442552089691162,-2.709623114267985
+391,79,T – AT,"The president delivered a speech in parliament, the priest did in the restaurant.",VP-ellipsis,Location,-4.9823994636535645,-3.339396476745605
+392,79,AT – T,"The president delivered a speech in the mountain, the priest did in the church.",VP-ellipsis,Location,-4.499241352081299,-2.7956193685531616
+393,79,AT – AT,"The president delivered a speech in the mountain, and the priest did in the restaurant.",VP-ellipsis,Location,-4.481713771820068,-3.1267306944903206
+394,79,T – SP violation,"The president delivered a speech in the parliament, and the priest did in the circle.",VP-ellipsis,Location,-4.362107753753662,-3.3673567210926727
+395,80,T – T,"The student heard the presentation in the university, the spectator will in the auditorium.",VP-ellipsis,Location,-5.137072563171387,-3.236368403715246
+396,80,T – AT,"The student heard the presentation in the university, the spectator will in the bakery. ",VP-ellipsis,Location,-6.048513889312744,-3.8007951624253216
+397,80,AT – T,"The student heard the presentation in the subway, the spectator will in the auditorium.",VP-ellipsis,Location,-4.999569892883301,-3.2084871460409725
+398,80,AT – AT,"The student heard the presentation in the subway, the spectator will in the bakery. ",VP-ellipsis,Location,-5.874104976654053,-4.01315621768727
+399,80,T – SP violation,"The student heard the presentation in the university, the spectator will in the monkey.",VP-ellipsis,Location,-6.120797634124756,-4.243353983935188
+400,81,T – T,"The refugees found shelter in the church, and so did civilians in bunkers.",Do-x/ Do-so anaphora,Location,-4.15218448638916,-1.666645109653473
+401,81,T – AT,"The refugees found shelter in the church, and so did civilians in supermarkets.",Do-x/ Do-so anaphora,Location,-4.523257255554199,-1.8290802538394928
+402,81,AT – T,"The refugees found shelter in the bakery, and so did civilians in bunkers.",Do-x/ Do-so anaphora,Location,-4.338147163391113,-1.9811705350875852
+403,81,AT – AT,"The refugees found shelter in the bakery, and so did civilians in supermarkets.",Do-x/ Do-so anaphora,Location,-4.618865013122559,-2.084960162639618
+404,81,T – SP violation,"The refugees found shelter in the church, and so did civilians in the inflations.",Do-x/ Do-so anaphora,Location,-4.658219337463379,-2.95024164985208
+405,82,T – T,"The dog played with his owner in the park, and the cat did the same thing in the house.",Do-x/ Do-so anaphora,Location,-2.86826753616333,-0.9892307236081078
+406,82,T – AT,"The dog played with his owner in the park, and the cat did the same thing in the supermarket.",Do-x/ Do-so anaphora,Location,-3.045563220977783,-1.1712980497451055
+407,82,AT – T,"The dog played with his owner in the auditorium, and the cat did the same thing in the house. ",Do-x/ Do-so anaphora,Location,-3.389484167098999,-1.474009877159482
+408,82,AT – AT,"The dog played with his owner in the auditorium, and the cat did the same thing in the supermarket.",Do-x/ Do-so anaphora,Location,-3.229924440383911,-1.5964072545369463
+409,82,T – SP violation,"The dog played with his owner in the park, and the cat did the same thing in the heat.",Do-x/ Do-so anaphora,Location,-3.2022833824157715,-1.3526367914109003
+410,83,T – T,"The artist hung the picture in the gallery, and the teenager did so in the room too. ",Do-x/ Do-so anaphora,Location,-4.341729640960693,-2.1927762533489026
+411,83,T – AT,"The artist hung the picture in the gallery, and the teenager did so in the gym too.",Do-x/ Do-so anaphora,Location,-4.179051876068115,-2.137772007992393
+412,83,AT – T,"The artist hung the picture in the factory, and the teenager did so in the room too.",Do-x/ Do-so anaphora,Location,-4.429485321044922,-2.607532551414088
+413,83,AT – AT,"The artist hung the picture in the factory, and the teenager did so in the gym too.  ",Do-x/ Do-so anaphora,Location,-4.684145927429199,-2.439261737622713
+414,83,T – SP violation,"The artist hung the picture in the gallery, and the teenager did so in the mother too.",Do-x/ Do-so anaphora,Location,-4.52414083480835,-2.9408556536624304
+415,84,T – T,"The hound fetched the bird in the forest, and so did the cat in the garden.",Do-x/ Do-so anaphora,Location,-3.5806961059570312,-1.073109006881714
+416,84,T – AT,"The hound fetched the bird in the forest, and so did the cat in the house.",Do-x/ Do-so anaphora,Location,-3.602182149887085,-1.1933804988861083
+417,84,AT – T,"The hound fetched the bird in the hospital, and so did the cat in the garden. ",Do-x/ Do-so anaphora,Location,-4.039227485656738,-1.3398033380508425
+418,84,AT – AT,"The hound fetched the bird in the hospital, and so did the cat in the house. ",Do-x/ Do-so anaphora,Location,-4.041031837463379,-1.3492258310317993
+419,84,T – SP violation,"The hound fetched the bird in the forest, and so did the cat in the air. ",Do-x/ Do-so anaphora,Location,-3.947011232376098,-1.6053391456604005
+420,85,T – T,"The family sunbathed on the beach, and the billionaire did the same thing on the yacht.",Do-x/ Do-so anaphora,Location,-3.404979944229126,-0.9620264530181885
+421,85,T – AT,"The family sunbathed on the beach, and the billionaire did the same thing in the garden.",Do-x/ Do-so anaphora,Location,-3.508062601089477,-1.132126808166504
+422,85,AT – T,"The family sunbathed at the river, and the billionaire did the same thing on the yacht. ",Do-x/ Do-so anaphora,Location,-4.090086460113525,-1.3617255687713623
+423,85,AT – AT,"The family sunbathed at the river, and the billionaire did the same thing in the garden.",Do-x/ Do-so anaphora,Location,-3.788896322250366,-1.4566030502319336
+424,85,T – SP violation,"The family sunbathed on the beach, and the billionaire did the same thing in the vase.",Do-x/ Do-so anaphora,Location,-3.7781028747558594,-1.7178797245025634
+425,86,T – T,"The cameraman is recording a video on the set, and the tourist in the museum.",Gapping,Location,-4.343284606933594,-2.814796633190579
+426,86,T – AT,"The cameraman is recording a video on the set, and the tourist in the hospital.",Gapping,Location,-4.148884296417236,-2.758730994330512
+427,86,AT – T,"The cameraman is recording a video in the greenhouse, and the tourist in the museum.",Gapping,Location,-4.2848334312438965,-2.6612292660607237
+428,86,AT – AT,"The cameraman is recording a video in the greenhouse, and the tourist in the hospital.",Gapping,Location,-4.152649879455566,-2.6512092219458685
+429,86,T – SP violation,"The cameraman is recording a video on the set, and the tourist in the shoes.",Gapping,Location,-4.251718997955322,-2.944389396243625
+430,87,T – T,"The professor opens the congress in the university, and the speaker in the auditorium.",Gapping,Location,-4.159314632415772,-2.845694363117218
+431,87,T – AT,"The professor opens the congress in the university, and the speaker in the gym.",Gapping,Location,-4.6952104568481445,-3.2033713459968567
+432,87,AT – T,"The professor opens the congress in the university, and the speaker in the gym.",Gapping,Location,-4.6952104568481445,-3.2033713459968567
+433,87,AT – AT,"The professor opens the congress in the circus, and the speaker in the gym.",Gapping,Location,-4.936699390411377,-3.5581939220428467
+434,87,T – SP violation,"The professor opens the congress in the university, and the speaker in the luggage",Gapping,Location,-5.257738590240479,-4.143676789601644
+435,88,T – T,"The painter painted a picture in the square, and the child in the kindergarten.",Gapping,Location,-4.3627214431762695,-2.2837186753749847
+436,88,T – AT,"The painter painted a picture in the square, and the child in the parking.",Gapping,Location,-4.755777359008789,-2.6936861872673035
+437,88,AT – T,"The painter painted a picture in the barracks, and the child in the kindergarten.",Gapping,Location,-4.405888557434082,-2.480155050754547
+438,88,AT – AT,"The painter painted a picture in the barracks, and the child in the parking. ",Gapping,Location,-5.093867301940918,-3.20465949177742
+439,88,T – SP violation,"The painter painted a picture in the square, and the child in the turtle.",Gapping,Location,-4.372337818145752,-2.796070486307144
+440,89,T – T,"The farmer is picking vegetables in the greenhouse, and the grandfather in the garden.",Gapping,Location,-4.084529399871826,-2.400566399097442
+441,89,T – AT,"The farmer is picking vegetables in the greenhouse, and the grandfather on the beach.",Gapping,Location,-4.391408920288086,-2.6226943731307983
+442,89,AT – T,"The farmer is picking vegetables in the mountain, and the grandfather on the beach.",Gapping,Location,-4.565892696380615,-3.0431688129901886
+443,89,AT – AT,"The farmer is picking vegetables in the mountain, and the grandfather on the beach.",Gapping,Location,-4.565892696380615,-3.0431688129901886
+444,89,T – SP violation,"The farmer is picking vegetables in the greenhouse, and the grandfather in the ball.",Gapping,Location,-4.739355564117432,-3.430599480867386
+445,90,T – T,"The priest married the couple in the church, and the mayor in the city hall.",Gapping,Location,-3.4047563076019287,-1.7460581555086023
+446,90,T – AT,"The priest married the couple in the church, and the mayor in the supermarket.",Gapping,Location,-3.780673503875733,-2.6127174496650696
+447,90,AT – T,"The priest married the couple on the beach, and the mayor in the city hall.",Gapping,Location,-4.030968189239502,-2.701376522288603
+448,90,AT – AT,"The priest married the couple on the boat, and the mayor in the supermarket.",Gapping,Location,-4.614994525909424,-3.361458152532577
+449,90,T – SP violation,"The priest married the couple in the church, and the mayor in the umbrella.",Gapping,Location,-4.289069175720215,-3.1106477081775665
+450,91,T – T,"The mother will cook the pizza in the oven, and the pizza maker will in the wood oven.",Pseudo-gapping,Location,-3.645423889160156,-1.879168915748596
+451,91,T – AT,"The mother will cook the pizza in the oven, and the pizza maker will in the pan.",Pseudo-gapping,Location,-3.614748954772949,-1.8958236292788857
+452,91,AT – T,"The mother will cook the pizza in the microwave, and the pizza maker will in the wood oven.",Pseudo-gapping,Location,-3.8599002361297607,-2.000813031196594
+453,91,AT – AT,"The mother will cook the pizza in the microwave, and the pizza maker will in the pan.",Pseudo-gapping,Location,-3.830061912536621,-2.039466054815995
+454,91,T – SP violation,"The mother will cook the pizza in the microwave, and the pizza maker will in the pan.",Pseudo-gapping,Location,-3.830061912536621,-2.039466054815995
+455,92,T – T,"The doctor will wear the white coat in the hospital, and the pharmacist will in the pharmacy.",Pseudo-gapping,Location,-3.213052034378052,-1.189800045707009
+456,92,T – AT,"The doctor will wear the white coat in the hospital, and the pharmacist will in the garden.",Pseudo-gapping,Location,-3.5192408561706543,-1.2174863381819292
+457,92,AT – T,"The doctor will wear the white coat in the gym, and the pharmacist will in the pharmacy.",Pseudo-gapping,Location,-3.394245386123657,-1.4783388051119717
+458,92,AT – AT,"The doctor will wear the white coat in the gym, and the pharmacist will in the garden. ",Pseudo-gapping,Location,-3.9064228534698486,-1.4617847962812944
+459,92,T – SP violation,"The doctor will wear the white coat in the hospital, and the pharmacist will in the allergy.",Pseudo-gapping,Location,-4.259662628173828,-1.5903215010960896
+460,93,T – T,"The student will dance in the disco, and the dancer will in the theater.",Pseudo-gapping,Location,-4.278682231903076,-2.41009172797203
+461,93,T – AT,"The student will dance in the disco, and the dancer will in the living room.",Pseudo-gapping,Location,-4.013926982879639,-2.565821872038
+462,93,AT – T,"The student will dance in the gym, and the dancer will in the theater.",Pseudo-gapping,Location,-4.175066947937012,-2.053076446056366
+463,93,AT – AT,"The student will dance in the gym, and the dancer will in the living room.",Pseudo-gapping,Location,-3.910670280456543,-1.9674497772665585
+464,93,T – SP violation,"The student will dance in the disco, and the dancer will in the picture. ",Pseudo-gapping,Location,-4.562357902526856,-3.3723083436489105
+465,94,T – T,"The traveller will check the watch on the platform, and the businessman will in the office.",Pseudo-gapping,Location,-4.974403858184815,-2.687191235391717
+466,94,T – AT,"The traveller will check the watch on the platform, and the businessman will at the zoo. ",Pseudo-gapping,Location,-5.289684772491455,-2.8912919195074784
+467,94,AT – T,"The traveller will check the watch in the prison, and the businessman will in the office.",Pseudo-gapping,Location,-4.797914505004883,-2.7435582813463717
+468,94,AT – AT,"The traveller will check the watch in the prison, and the businessman will at the zoo.",Pseudo-gapping,Location,-5.111672878265381,-2.8836395364058647
+469,94,T – SP violation,"The traveller will check the watch on the platform, and the businessman will in the bread.",Pseudo-gapping,Location,-5.367168426513672,-3.352299740439967
+470,95,T – T,"The singer will perform in the stadium, and the drag queen will in the nightclub.",Pseudo-gapping,Location,-3.867983341217041,-1.5686547615948845
+471,95,T – AT,"The singer will perform in the stadium, and the drag queen will in the kitchen. ",Pseudo-gapping,Location,-4.211236000061035,-1.8092006234561693
+472,95,AT – T,"The singer will perform on the beach, and the drag queen will in the nightclub.",Pseudo-gapping,Location,-3.98942756652832,-1.8075714391820568
+473,95,AT – AT,"The singer will perform on the beach, and the drag queen will in the kitchen. ",Pseudo-gapping,Location,-4.209736347198486,-1.780444537892061
+474,95,T – SP violation,"The singer will perform in the stadium, and the drag queen will in the bottle.",Pseudo-gapping,Location,-4.183623790740967,-2.230716312632841
+475,96,T – T,"The student completed the project before the exam, but the engineer didn’t before the deadline.",VP-ellipsis,Time,-4.920945167541504,-4.064246579220421
+476,96,T – AT,"The student completed the project before the exam, but the engineer didn’t before the summer.",VP-ellipsis,Time,-5.067224025726318,-4.389718909012644
+477,96,AT – T,"The student completed the project before the execution, but the engineer didn’t before the deadline.",VP-ellipsis,Time,-5.326908111572266,-4.4872331619262695
+478,96,AT – AT,"The student completed the project before the execution, but the engineer didn’t before the summer.",VP-ellipsis,Time,-5.413906097412109,-4.728012135154323
+479,96,T – SP violation,"The student completed the project before the exam, but the engineer didn’t before the book.",VP-ellipsis,Time,-5.154288291931152,-4.613520597156725
+480,97,T – T,"The passenger buys a ticket before the departure, the tourist will before the holiday.",VP-ellipsis,Time,-5.0788397789001465,-2.837459146976471
+481,97,T – AT,"The passenger buys a ticket before the departure, the tourist will before breakfast.",VP-ellipsis,Time,-5.50559139251709,-3.357380739847819
+482,97,AT – T,"The passenger buys a ticket before the meeting, the tourist will before the holiday.",VP-ellipsis,Time,-5.315173149108887,-3.288807332515717
+483,97,AT – AT,"The passenger buys a ticket before the meeting, the tourist will before breakfast.",VP-ellipsis,Time,-5.702532768249512,-3.646375878651937
+484,97,T – SP violation,"The passenger buys a ticket before the departure, the tourist will before the banana.",VP-ellipsis,Time,-5.600336074829102,-3.7714648246765137
+485,98,T – T,"The student cut his hair before the graduation, the groom will before the marriage. ",VP-ellipsis,Time,-5.022411823272705,-2.7719424068927765
+486,98,T – AT,"The student cut his hair before the graduation, the groom will before the workout.",VP-ellipsis,Time,-5.5081000328063965,-2.960311917697682
+487,98,AT – T,"The student cut his hair before the excursion, the groom will before the marriage.",VP-ellipsis,Time,-4.749120712280273,-2.749048485475428
+488,98,AT – AT,"The student cut his hair before the excursion, the groom will before the workout.",VP-ellipsis,Time,-5.2471184730529785,-2.6806154251098637
+489,98,T – SP violation,"The student cut his hair before the graduation, the groom will before the bike.",VP-ellipsis,Time,-5.607039451599121,-4.098877012729645
+490,99,T – T,"The musician entertained the crowd during the concert, and the comedian did during the show.",VP-ellipsis,Time,-3.857374668121338,-1.873025922214284
+491,99,T – AT,"The musician entertained the crowd during the concert, and the comedian did during the lesson.",VP-ellipsis,Time,-4.314770698547363,-2.5312328619115494
+492,99,AT – T,"The musician entertained the crowd during the flight, and the comedian did during the show.",VP-ellipsis,Time,-4.184750080108643,-2.456893976996927
+493,99,AT – AT,"The musician entertained the crowd during the flight, and the comedian did during the lesson.",VP-ellipsis,Time,-4.542486667633057,-2.854028645683737
+494,99,T – SP violation,"The musician entertained the crowd during the concert, and the comedian did during the television.",VP-ellipsis,Time,-4.576940536499023,-2.3945320634280933
+495,100,T – T,"The soldier checked the rifle during the drill, but the hunter didn’t before the hunting.",VP-ellipsis,Time,-5.461638450622559,-4.945754026111803
+496,100,T – AT,"The soldier checked the rifle during the drill, but the hunter didn’t before the wedding.",VP-ellipsis,Time,-5.462261199951172,-5.076703924881785
+497,100,AT – T,"The soldier checked the rifle during the party, but the hunter didn’t before the hunting.",VP-ellipsis,Time,-5.634771347045898,-5.003984978324489
+498,100,AT – AT,"The soldier checked the rifle during the party, but the hunter didn’t before the wedding.",VP-ellipsis,Time,-5.400996208190918,-4.883606584448564
+499,100,T – SP violation,"The soldier checked the rifle during the drill, but the hunter didn’t before the leaf.",VP-ellipsis,Time,-5.825153350830078,-5.104698783472965
+500,101,T – T,"The cook washed his hands before cooking, and so did the doctor before the surgery.",Do-x/ Do-so anaphora,Time,-3.613177537918091,-1.091518430148854
+501,101,T – AT,"The cook washed his hands before cooking, and so did the doctor before the meeting.",Do-x/ Do-so anaphora,Time,-4.247749328613281,-1.2441815768971165
+502,101,AT – T,"The cook washed his hands before the match, and so did the doctor before the surgery.",Do-x/ Do-so anaphora,Time,-3.765882968902588,-2.022122436099582
+503,101,AT – AT,"The cook washed his hands before the match, and so did the doctor before the meeting.",Do-x/ Do-so anaphora,Time,-3.832873582839966,-2.00438035859002
+504,101,T – SP violation,"The cook washed his hands before cooking, and so did the doctor before the chair.",Do-x/ Do-so anaphora,Time,-4.041145324707031,-1.9171069930581488
+505,102,T – T,"The professor spoke to the audience during the conference, and the businessman did so during the meeting too.",Do-x/ Do-so anaphora,Time,-3.90863037109375,-1.761995220184326
+506,102,T – AT,"The professor spoke to the audience during the conference, and the businessman did so during the workout too.",Do-x/ Do-so anaphora,Time,-4.222986698150635,-2.087338379451207
+507,102,AT – T,"The professor spoke to the audience during the funeral, and the businessman did so during the meeting too.",Do-x/ Do-so anaphora,Time,-4.10947322845459,-2.1841583013534547
+508,102,AT – AT,"The professor spoke to the audience during the funeral, and the businessman did so during the workout too.",Do-x/ Do-so anaphora,Time,-4.45244026184082,-2.3134509041195823
+509,102,T – SP violation,"The professor spoke to the audience during the conference, and the businessman did so during the door too.",Do-x/ Do-so anaphora,Time,-4.487760543823242,-3.087053894996643
+510,103,T – T,"The student had lunch after school, and the worker did the same thing during the lunch break. ",Do-x/ Do-so anaphora,Time,-3.70060658454895,-1.1684220966539884
+511,103,T – AT,"The student had lunch after school, and the worker did the same thing during the meeting.",Do-x/ Do-so anaphora,Time,-3.887508630752564,-1.7281438244713678
+512,103,AT – T,"The student had lunch after an excursion, and the worker did the same thing during the lunch break.",Do-x/ Do-so anaphora,Time,-3.738302946090698,-1.5904903411865234
+513,103,AT – AT,"The student had lunch after an excursion, and the worker did the same thing during the meeting.",Do-x/ Do-so anaphora,Time,-4.126392364501953,-2.0597356081008917
+514,103,T – SP violation,"The student had lunch after school, and the worker did the same thing during the milk.",Do-x/ Do-so anaphora,Time,-4.287958145141602,-2.31870076391432
+515,104,T – T,"The demonstrator carried the flag during the demonstration, and the cheerleader did so before the match too.",Do-x/ Do-so anaphora,Time,-3.761283159255981,-1.983999252319336
+516,104,T – AT,"The demonstrator carried the flag during the demonstration, and the cheerleader did so before dinner too.",Do-x/ Do-so anaphora,Time,-4.200061798095703,-1.8630075681777227
+517,104,AT – T,"The demonstrator carried the flag during lunch, and the cheerleader did so before the match too.",Do-x/ Do-so anaphora,Time,-4.275057315826416,-2.08671083904448
+518,104,AT – AT,"The demonstrator carried the flag during lunch, and the cheerleader did so before dinner too. ",Do-x/ Do-so anaphora,Time,-4.5865559577941895,-1.5820733785629273
+519,104,T – SP violation,"The demonstrator carried the flag during the demonstration, and the cheerleader did so before the phone too.",Do-x/ Do-so anaphora,Time,-4.317453861236572,-2.379345243627375
+520,105,T – T,"The boxer delivered a punch during the fight, and so did the criminal during the robbery. ",Do-x/ Do-so anaphora,Time,-3.958157539367676,-1.4327587286631267
+521,105,T – AT,"The boxer delivered a punch during the fight, and so did the criminal during the festival.",Do-x/ Do-so anaphora,Time,-4.155638694763184,-1.950710932413737
+522,105,AT – T,"The boxer delivered a punch during the fire, and so did the criminal during the robbery.",Do-x/ Do-so anaphora,Time,-4.337244510650635,-2.117029243045383
+523,105,AT – AT,"The boxer delivered a punch during the fire, and so did the criminal during the festival.",Do-x/ Do-so anaphora,Time,-4.732639312744141,-2.531808031929864
+524,105,T – SP violation,"The boxer delivered a punch during the fight, and so did the criminal during the circle.",Do-x/ Do-so anaphora,Time,-4.287808418273926,-2.16300900777181
+525,106,T – T,"The tourist visits some museums during the vacation, and the students during the school trip.",Gapping,Time,-4.254142284393311,-2.946595584644991
+526,106,T – AT,"The tourist visits some museums during the vacation, and the students during the exams.",Gapping,Time,-4.509089946746826,-3.6946869790554047
+527,106,AT – T,"The tourist visits some museums during the party, and the students during the school trip.",Gapping,Time,-4.4630045890808105,-3.164349499870749
+528,106,AT – AT,"The tourist visits some museums during the party, and the students during the exams.",Gapping,Time,-4.651614189147949,-3.633492082357407
+529,106,T – SP violation,"The tourist visits some museums during the vacation, and the students during the river.",Gapping,Time,-5.303795337677002,-4.041282594203949
+530,107,T – T,"The bride put on her makeup before the ceremony, and the model before the photo shoot.",Gapping,Time,-3.4490180015563965,-1.4037255181206598
+531,107,T – AT,"The bride put on her makeup before the ceremony, and the model before the meeting.",Gapping,Time,-3.967061281204224,-2.070731892305262
+532,107,AT – T,"The bride put on her makeup before the party, and the model before the photo shoot.",Gapping,Time,-3.67008638381958,-1.5325929323832197
+533,107,AT – AT,"The bride put on her makeup before the party, and the model before the meeting.",Gapping,Time,-4.1565937995910645,-2.26781525331385
+534,107,T – SP violation,"The bride put on her makeup before the marriage, and the model before the table. ",Gapping,Time,-4.570850372314453,-2.730716957765467
+535,108,T – T,"The student studied before the exam, and the public employee before the interview.",Gapping,Time,-4.407174587249756,-2.787741788228353
+536,108,T – AT,"The student studied before the exam, and the public employee before the meeting.",Gapping,Time,-4.635948657989502,-3.35727809270223
+537,108,AT – T,"The student studied before the excursion, and the public employee before the interview.",Gapping,Time,-4.663671016693115,-2.747255265712738
+538,108,AT – AT,"The student studied before the excursion, and the public employee before the meeting.",Gapping,Time,-4.673304080963135,-3.194349884986877
+539,108,T – SP violation,"The student studied before the exam, and the public employee before the bag. ",Gapping,Time,-5.497981071472168,-3.760669326782226
+540,109,T – T,"The athlete stretches before the workout, and the dancer before the performance. ",Gapping,Time,-4.276806354522705,-2.7526593526204426
+541,109,T – AT,"The athlete stretches before the workout, and the dancer before lunch.",Gapping,Time,-4.98427152633667,-3.0040145942143037
+542,109,AT – T,"The athlete stretches before the party, and the dancer before the performance. ",Gapping,Time,-4.539950847625732,-3.7610813549586704
+543,109,AT – AT,"The athlete stretches before the party, and the dancer before lunch. ",Gapping,Time,-5.194036483764648,-4.069997567396897
+544,109,T – SP violation,"The athlete stretches before the workout, and the dancer before the bottle. ",Gapping,Time,-5.16133451461792,-3.327486069997152
+545,110,T – T,"The actor rehearsed before the play, and the singer before the concert.",Gapping,Time,-3.8371856212615967,-1.647912951076732
+546,110,T – AT,"The actor rehearsed before the play, and the singer before the lesson.",Gapping,Time,-4.573763370513916,-2.019826720742618
+547,110,AT – T,"The actor rehearsed before the festival, and the singer before the concert.",Gapping,Time,-4.066624641418457,-1.937182117910946
+548,110,AT – AT,"The actor rehearsed before the festival, and the singer before the lesson. ",Gapping,Time,-5.095870971679688,-2.550725712495692
+549,110,T – SP violation,"The actor rehearsed before the play, and the singer before sadness. ",Gapping,Time,-5.583667278289795,-2.6871806979179382
+550,111,T – T,"The runner will drink some water after the race, and the athlete will after the workout.",Pseudo-gapping,Time,-3.633005142211914,-1.5862587125677812
+551,111,T – AT,"The runner will drink some water after the race, and the athlete will after the funeral.",Pseudo-gapping,Time,-3.878558397293091,-2.247531996832953
+552,111,AT – T,"The runner will drink some water after the concert, and the athlete will after the workout.",Pseudo-gapping,Time,-4.163599491119385,-2.132776009409051
+553,111,AT – AT,"The runner will drink some water after the concert, and the athlete will after the funeral.",Pseudo-gapping,Time,-4.382528305053711,-2.7326044771406384
+554,111,T – SP violation,"The runner will drink some water after the race, and the athlete will after the cream.",Pseudo-gapping,Time,-4.025714874267578,-2.7956960995992026
+555,112,T – T,"The spectator will cry during the film, and the newborn will during the night.",Pseudo-gapping,Time,-4.941450119018555,-2.976662411409266
+556,112,T – AT,"The spectator will cry during the film, and the newborn will during the walk.",Pseudo-gapping,Time,-5.122121334075928,-2.9105300622827865
+557,112,AT – T,"The spectator will cry during the conference, and the newborn will during the night. ",Pseudo-gapping,Time,-5.248769760131836,-3.328051875619327
+558,112,AT – AT,"The spectator will cry during the conference, and the newborn will during the walk.",Pseudo-gapping,Time,-5.2960357666015625,-3.020971382365507
+559,112,T – SP violation,"The spectator will cry during the film, and the newborn will during the t-shirt.",Pseudo-gapping,Time,-4.7854743003845215,-2.66189560137297
+560,113,T – T,"The student will have a party after his graduation, and the couple will after their marriage.",Pseudo-gapping,Time,-3.788238048553467,-1.9744944042629664
+561,113,T – AT,"The student will have a party after his graduation, and the couple will after their meeting.",Pseudo-gapping,Time,-4.14217472076416,-2.287013292312622
+562,113,AT – T,"The student will have a party after the interview, and the couple will after their marriage.",Pseudo-gapping,Time,-3.943815231323242,-2.541662613550822
+563,113,AT – AT,"The student will have a party after the interview, and the couple will after their meeting.",Pseudo-gapping,Time,-4.012836933135986,-2.5970746676127114
+564,113,T – SP violation,"The student will have a party after his graduation, and the couple will after their clothes.",Pseudo-gapping,Time,-4.661273002624512,-2.4744813442230225
+565,114,T – T,"The student workouts after school, and the businessman will after work.",Pseudo-gapping,Time,-5.570562839508057,-2.503566196986607
+566,114,T – AT,"The student workouts after school, and the businessman will during work.",Pseudo-gapping,Time,-5.986511707305908,-2.752472026007516
+567,114,AT – T,"The student workouts before school, and the businessman will after work.",Pseudo-gapping,Time,-5.911585330963135,-2.7115727152143205
+568,114,AT – AT,"The student workouts before school, and the businessman will during work.",Pseudo-gapping,Time,-6.172102451324463,-2.895708969661168
+569,114,T – SP violation,"The student workouts after school, and the businessman will after the rope.",Pseudo-gapping,Time,-6.413709163665772,-3.769030984242757
+570,115,T – T,"The tourist packed his bags before departure, and the family will before the move.",Pseudo-gapping,Time,-4.857550621032715,-3.447699069976806
+571,115,T – AT,"The tourist packed his bags before departure, and the family will before the party.",Pseudo-gapping,Time,-4.8417840003967285,-3.416408747434616
+572,115,AT – T,"The tourist packed his bags before the meeting, and the family will before the move.",Pseudo-gapping,Time,-4.687409400939941,-3.594338052413043
+573,115,AT – AT,"The tourist packed his bags before meeting, and the family will before the party. ",Pseudo-gapping,Time,-5.382345199584961,-3.70549476146698
+574,115,T – SP violation,"The tourist packed his bags before departure, and the family will before the dog.",Pseudo-gapping,Time,-4.995854377746582,-4.0202586352825165

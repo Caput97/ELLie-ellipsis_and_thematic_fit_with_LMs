@@ -1,0 +1,7 @@
+,GPT_Verb_sampling,GPT_dObj_sampling,GPT_Verb_noSampling,GPT_dObj_noSampling,BERT
+T-T,28,19,21,18,70
+T-AT,22,22,15,19,64
+AT-T,25,18,19,18,72
+AT-AT,21,22,17,19,65
+T-SP viol,22,25,16,20,50
+Tot.,118,106,88,94,321

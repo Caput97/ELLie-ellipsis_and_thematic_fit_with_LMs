@@ -1,0 +1,576 @@
+ID,Condition,Sentence,Construction,Semantic_Role
+1,T – T,"The photographer used the camera, and the reporter did too.",VP-ellipsis,Agent
+1,T – AT,"The photographer used the camera, and the butcher did too.",VP-ellipsis,Agent
+1,AT – T,"The grandfather used the camera, and the reporter did too.",VP-ellipsis,Agent
+1,AT – AT,"The grandfather used the camera, and the butcher did too.",VP-ellipsis,Agent
+1,T – SP violation,"The photographer used the camera, and the bike did too.",VP-ellipsis,Agent
+2,T – T,"The engineer completed the project, but the student didn’t.",VP-ellipsis,Agent
+2,T – AT,"The engineer completed the project, but the cyclist didn’t.",VP-ellipsis,Agent
+2,AT – T,"The child completed the project, but the student didn’t.",VP-ellipsis,Agent
+2,AT – AT,"The child completed the project, but the cyclist didn’t. ",VP-ellipsis,Agent
+2,T – SP violation,"The engineer completed the project, but the ball didn’t.",VP-ellipsis,Agent
+3,T – T,"The barber cuts the hair, and the hairdresser does too.",VP-ellipsis,Agent
+3,T – AT,"The barber cuts the hair, and the butcher does too.",VP-ellipsis,Agent
+3,AT – T,"The doctor cuts the hair, and the hairdresser does too. ",VP-ellipsis,Agent
+3,AT – AT,"The doctor cuts the hair, and the butcher does too.",VP-ellipsis,Agent
+3,T – SP violation,"The barber cuts the hair, and happiness does too.",VP-ellipsis,Agent
+4,T – T,"The butcher used the knife, and the soldier did too.",VP-ellipsis,Agent
+4,T – AT,"The butcher used the knife, and the teacher did too.",VP-ellipsis,Agent
+4,AT – T,"The bricklayer used the knife, and the soldier did too.",VP-ellipsis,Agent
+4,AT – AT,"The bricklayer used the knife, and the teacher did too.",VP-ellipsis,Agent
+4,T – SP violation,"The butcher used the knife, and the dish did too.",VP-ellipsis,Agent
+5,T – T,"The snowboarder flips the board, but the surfer doesn’t.",VP-ellipsis,Agent
+5,T – AT,"The snowboarder flips the board, but the hairstylist doesn’t.",VP-ellipsis,Agent
+5,AT – T,"The hydraulic flips the board, but the surfer doesn’t.",VP-ellipsis,Agent
+5,AT – AT,"The hydraulic flips the board, but the hairstylist doesn’t.",VP-ellipsis,Agent
+5,T – SP violation,"The snowboarder flips the board, but the phone doesn’t.",VP-ellipsis,Agent
+6,T – T,"The comedian entertained the audience, and the speaker did too.",VP-ellipsis,Agent
+6,T – AT,"The comedian entertained the audience, and the student did too.",VP-ellipsis,Agent
+6,AT – T,"The doctor entertained the audience, and the speaker did too.",VP-ellipsis,Agent
+6,AT – AT,"The doctor entertained the audience, and the student did too.",VP-ellipsis,Agent
+6,T – SP violation,"The comedian entertained the audience, and the bottle did too.",VP-ellipsis,Agent
+7,T – T,"The sculptor carved the stone, but the artist didn’t.",VP-ellipsis,Agent
+7,T – AT,"The sculptor carved the stone, but the butcher didn’t.",VP-ellipsis,Agent
+7,AT – T,"The therapist carved the stone, but the artist didn’t.",VP-ellipsis,Agent
+7,AT – AT,"The therapist carved the stone, but the butcher didn’t.",VP-ellipsis,Agent
+7,T – SP violation,"The sculptor carved the stone, but the sound didn’t.",VP-ellipsis,Agent
+8,T – T,"The soldier wore a helmet, and so did the biker.",Do-x/ Do-so anaphora,Agent
+8,T – AT,"The soldier wore a helmet, and so did the professor.",Do-x/ Do-so anaphora,Agent
+8,AT – T,"The swimmer wore a helmet, and so did the biker.",Do-x/ Do-so anaphora,Agent
+8,AT – AT,"The swimmer wore a helmet, and so did the professor.",Do-x/ Do-so anaphora,Agent
+8,T – SP violation,"The soldier wore a helmet, and so did the tree.",Do-x/ Do-so anaphora,Agent
+9,T – T,"The teacher helped the child, and the mother did the same thing.",Do-x/ Do-so anaphora,Agent
+9,T – AT,"The teacher helped the child, and the cook did the same thing.",Do-x/ Do-so anaphora,Agent
+9,AT – T,"The florist helped the child, and the mother did the same thing.",Do-x/ Do-so anaphora,Agent
+9,AT – AT,"The florist helped the child, and the cook did the same thing. ",Do-x/ Do-so anaphora,Agent
+9,T – SP violation,"The teacher helped the child, and the boat did the same thing.",Do-x/ Do-so anaphora,Agent
+10,T – T,"The programmer uses the computer, and so does the student.",Do-x/ Do-so anaphora,Agent
+10,T – AT,"The programmer uses the computer, and so does the farmer.",Do-x/ Do-so anaphora,Agent
+10,AT – T,"The lumberjack uses the computer, and so does the student.",Do-x/ Do-so anaphora,Agent
+10,AT – AT,"The lumberjack uses the computer, and so does the farmer.",Do-x/ Do-so anaphora,Agent
+10,T – SP violation,"The programmer uses the computer, and so does the chair.",Do-x/ Do-so anaphora,Agent
+11,T – T,"The spectator bought a ticket, and  the passenger did so too.",Do-x/ Do-so anaphora,Agent
+11,T – AT,"The spectator bought a ticket, and the cook did so too.",Do-x/ Do-so anaphora,Agent
+11,AT – T,"The housewife bought a ticket, and the passenger did so too.",Do-x/ Do-so anaphora,Agent
+11,AT – AT,"The housewife bought a ticket, and the cook did so too.",Do-x/ Do-so anaphora,Agent
+11,T – SP violation,"The spectator bought a ticket, and the turtle did so too.",Do-x/ Do-so anaphora,Agent
+12,T – T,"The terrorist released the hostage, and the soldiers did the same thing.",Do-x/ Do-so anaphora,Agent
+12,T – AT,"The terrorist released the hostage, and the artist did the same thing.",Do-x/ Do-so anaphora,Agent
+12,AT – T,"The electrician released the hostage, and the soldiers did the same thing.",Do-x/ Do-so anaphora,Agent
+12,AT – AT,"The electrician released the hostage, and the artist did the same thing.",Do-x/ Do-so anaphora,Agent
+12,T – SP violation,"The terrorist released the hostage, and the jacket did the same thing.",Do-x/ Do-so anaphora,Agent
+13,T – T,"The farmer plowed the field, and the man did so too.",Do-x/ Do-so anaphora,Agent
+13,T – AT,"The farmer plowed the field, and the waiter did so too.",Do-x/ Do-so anaphora,Agent
+13,AT – T,"The bartender plowed the field, and the man did so too.",Do-x/ Do-so anaphora,Agent
+13,AT – AT,"The bartender plowed the field, and the waiter did so too.",Do-x/ Do-so anaphora,Agent
+13,T – SP violation,"The farmer plowed the field, and the waiter did so too.",Do-x/ Do-so anaphora,Agent
+14,T – T,"The carpenter grabbed the board, and so did the surfer.",Do-x/ Do-so anaphora,Agent
+14,T – AT,"The carpenter grabbed the board, and so did the monkey.",Do-x/ Do-so anaphora,Agent
+14,AT – T,"The dancer grabbed the board, and so did the surfer.",Do-x/ Do-so anaphora,Agent
+14,AT – AT,"The dancer grabbed the board, and so did the monkey.",Do-x/ Do-so anaphora,Agent
+14,T – SP violation,"The carpenter grabbed the board, and so did the coffee.",Do-x/ Do-so anaphora,Agent
+15,T – T,"The pyromaniac starts the fire, and the pilot the race. ",Gapping,Agent
+15,T – AT,"The pyromaniac starts the fire, and the singer the race.",Gapping,Agent
+15,AT – T,"The biker starts the fire, and the pilot the race.",Gapping,Agent
+15,AT – AT,"The biker starts the fire, and the singer the race.",Gapping,Agent
+15,T – SP violation,"The pyromaniac starts the fire, and the leaf the race.",Gapping,Agent
+16,T – T,"The truck has hit the car, and the policeman the demonstrator.",Gapping,Agent
+16,T – AT,"The truck has hit the car, and the grandmother the demonstrator.",Gapping,Agent
+16,AT – T,"The footballer has hit the car, and the policeman the demonstrator.",Gapping,Agent
+16,AT – AT,"The footballer has hit the car, and the grandmother the demonstrator.",Gapping,Agent
+16,T – SP violation,"The truck has hit the car, and the air the demonstrator.",Gapping,Agent
+17,T – T,"The biologist uses the microscope, and the teacher the blackboard.",Gapping,Agent
+17,T – AT,"The biologist uses the microscope, and the climber the blackboard.",Gapping,Agent
+17,AT – T,"The barber uses the microscope, and the teacher the blackboard.",Gapping,Agent
+17,AT – AT,"The barber uses the microscope, and the climber the blackboard.",Gapping,Agent
+17,T – SP violation,"The biologist uses the microscope, and the bird the blackboard.",Gapping,Agent
+18,T – T,"The policeman fights the crime, and the firefighter the fire.",Gapping,Agent
+18,T – AT,"The policeman fights the crime, and the professor the fire.",Gapping,Agent
+18,AT – T,"The pupil fights the crime, and the firefighter the fire.",Gapping,Agent
+18,AT – AT,"The pupil fights the crime, and the professor the fire.",Gapping,Agent
+18,T – SP violation,"The policeman fights the crime, and the glass the fire.",Gapping,Agent
+19,T – T,"The bartender shook the drink, and the cheerleader the flag.",Gapping,Agent
+19,T – AT,"The bartender shook the drink, and the waiter the flag.",Gapping,Agent
+19,AT – T,"The athlete shook the drink, and the cheerleader the flag.",Gapping,Agent
+19,AT – AT,"The athlete shook the drink, and the waiter the flag.",Gapping,Agent
+19,T – SP violation,"The bartender shook the drink, and the stone the flag.",Gapping,Agent
+20,T – T,"The hound fetches the bird, and the waiter the water.",Gapping,Agent
+20,T – AT,"The hound fetches the bird, and the baker the water.",Gapping,Agent
+20,AT – T,"The fish fetches the bird, and the waiter the water.",Gapping,Agent
+20,AT – AT,"The fish fetches the bird, and the baker the water.",Gapping,Agent
+20,T – SP violation,"The hound fetches the bird, and the car the water.",Gapping,Agent
+21,T – T,"The nurse will wash the infant, and the hairstylist will the hair.",Pseudo-gapping,Agent
+21,T – AT,"The nurse will wash the infant, and the banker will the hair.",Pseudo-gapping,Agent
+21,AT – T,"The carpenter will wash the infant, and the hairstylist will the hair.",Pseudo-gapping,Agent
+21,AT – AT,"The carpenter will wash the infant, and the banker will the hair.",Pseudo-gapping,Agent
+21,T – SP violation,"The nurse will wash the infant, and the jacket will the hair. ",Pseudo-gapping,Agent
+22,T – T,"The student will hear the lecture, and the nanny will the baby.",Pseudo-gapping,Agent
+22,T – AT,"The student will hear the lecture, and the driver will the baby.",Pseudo-gapping,Agent
+22,AT – T,"The soldier will hear the lecture, and the nanny will the baby.",Pseudo-gapping,Agent
+22,AT – AT,"The soldier will hear the lecture, and the driver will the baby.",Pseudo-gapping,Agent
+22,T – SP violation,"The student will hear the lecture, and the moon will the baby.",Pseudo-gapping,Agent
+23,T – T,"The parent will give a present, and the teacher will the homework.",Pseudo-gapping,Agent
+23,T – AT,"The parent will give a present, and the president will the homework.",Pseudo-gapping,Agent
+23,AT – T,"The cook will give a present, and the teacher will the homework.",Pseudo-gapping,Agent
+23,AT – AT,"The cook will give a present, and the president will the homework.",Pseudo-gapping,Agent
+23,T – SP violation,"The parent will give a present, and the bird will the homework.",Pseudo-gapping,Agent
+24,T – T,"The sergeant will assign a mission, and the boss will a job.",Pseudo-gapping,Agent
+24,T – AT,"The sergeant will assign a mission, and the father will a job.",Pseudo-gapping,Agent
+24,AT – T,"The swimmer will assign a mission, and the boss will a job.",Pseudo-gapping,Agent
+24,AT – AT,"The swimmer will assign a mission, and the father will a job.",Pseudo-gapping,Agent
+24,T – SP violation,"The sergeant will assign a mission, and the duck will a job.",Pseudo-gapping,Agent
+25,T – T,"The child will lend a pen, and the usurer will the money.",Pseudo-gapping,Agent
+25,T – AT,"The child will lend a pen, and the artist will the money.",Pseudo-gapping,Agent
+25,AT – T,"The traveller will lend a pen, and the usurer will the money.",Pseudo-gapping,Agent
+25,AT – AT,"The traveller will lend a pen, and the artist will the money.",Pseudo-gapping,Agent
+25,T – SP violation,"The child will lend a pen, and the computer will the money.",Pseudo-gapping,Agent
+26,T – T,"The journalist writes an article, and the professor a book.",Gapping,Patient
+26,T – AT,"The journalist writes an article, and the professor a magazine.",Gapping,Patient
+26,AT – T,"The journalist writes a song, and the professor a book.",Gapping,Patient
+26,AT – AT,"The journalist writes a song, and the professor a magazine. ",Gapping,Patient
+26,T – SP violation,"The journalist writes an article, and the professor an apple.",Gapping,Patient
+27,T – T,"The violinist will play the violin, and the musician a song.",Gapping,Patient
+27,T – AT,"The violinist will play the violin, and the musician the flute.",Gapping,Patient
+27,AT – T,"The violinist will play the trumpet, and the musician a song.",Gapping,Patient
+27,AT – AT,"The violinist will play the trumpet, and the musician the flute.",Gapping,Patient
+27,T – SP violation,"The violinist will play the violin, and the musician the water.",Gapping,Patient
+28,T – T,"The florist sells flowers, and the butcher meat.",Gapping,Patient
+28,T – AT,"The florist sells flowers, and the butcher weapons.",Gapping,Patient
+28,AT – T,"The florist sells bikes, and the butcher meat.",Gapping,Patient
+28,AT – AT,"The florist sells bikes, and the butcher weapons.",Gapping,Patient
+28,T – SP violation,"The florist sells flowers, and the butcher the air.",Gapping,Patient
+29,T – T,"The knight holds the sword, and the champion the cup.",Gapping,Patient
+29,T – AT,"The knight holds the sword, and the champion the guitar.",Gapping,Patient
+29,AT – T,"The knight holds the camera, and the champion the cup.",Gapping,Patient
+29,AT – AT,"The knight holds the camera, and the champion the guitar.",Gapping,Patient
+29,T – SP violation,"The knight holds the sword, and the champion the rain.",Gapping,Patient
+30,T – T,"The businessman is reading the report, and the customer the menu.",Gapping,Patient
+30,T – AT,"The businessman is reading the report, and the customer the music.",Gapping,Patient
+30,AT – T,"The businessman is reading fables, and the customer the menu.",Gapping,Patient
+30,AT – AT,"The businessman is reading fables, and the customer the music.",Gapping,Patient
+30,T – SP violation,"The businessman is reading the report, and the customer the cat.",Gapping,Patient
+31,T – T,"The astronomer was observing the stars, and the teacher her pupils.",Gapping,Patient
+31,T – AT,"The astronomer was observing the stars, and the teacher her sunglasses.",Gapping,Patient
+31,AT – T,"The astronomer was observing the plants, and the teacher her pupils.",Gapping,Patient
+31,AT – AT,"The astronomer was observing the plants, and the teacher her sunglasses.",Gapping,Patient
+31,T – SP violation,"The astronomer was observing the plants, and the teacher her problems.",Gapping,Patient
+32,T – T,"The mechanic is renting a truck, and the manager a room.",Gapping,Patient
+32,T – AT,"The mechanic is renting a truck, and the manager a kayak.",Gapping,Patient
+32,AT – T,"The mechanic is renting a boat, and the manager a room.",Gapping,Patient
+32,AT – AT,"The mechanic is renting a boat, and the manager a kayak.",Gapping,Patient
+32,T – SP violation,"The mechanic is renting a truck, and the manager the idea.",Gapping,Patient
+33,T – T,"The scientist reported a finding, and the witness a crime.",Gapping,Patient
+33,T – AT,"The scientist reported a finding, and the witness a birth.",Gapping,Patient
+33,AT – T,"The scientist reported a marriage, and the witness a crime.",Gapping,Patient
+33,AT – AT,"The scientist reported a marriage, and the witness a birth.",Gapping,Patient
+33,T – SP violation,"The scientist reported a finding, and the witness the water.",Gapping,Patient
+34,T – T,"The soldier dug a trench, and the dog a hole.",Gapping,Patient
+34,T – AT,"The soldier dug a trench, and the dog a grave.",Gapping,Patient
+34,AT – T,"The soldier dug a pool, and the dog a hole.",Gapping,Patient
+34,AT – AT,"The soldier dug a pool, and the dog a grave.",Gapping,Patient
+34,T – SP violation,"The soldier dug a trench, and the dog a person.",Gapping,Patient
+35,T – T,"The waiter has delivered a drink, and the postman a mail.",Gapping,Patient
+35,T – AT,"The waiter has delivered a drink, and the postman a punch.",Gapping,Patient
+35,AT – T,"The waiter has delivered a speech, and the postman a mail.",Gapping,Patient
+35,AT – AT,"The waiter has delivered a speech, and the postman a punch.",Gapping,Patient
+35,T – SP violation,"The waiter has delivered a drink, and the postman the sun. ",Gapping,Patient
+36,T – T,"The cook will mix ingredients, and the chemist will the substances.",Pseudo-gapping,Patient
+36,T – AT,"The cook will mix ingredients, and the chemist will the music.",Pseudo-gapping,Patient
+36,AT – T,"The cook will mix the paint, and the chemist will the substances.",Pseudo-gapping,Patient
+36,AT – AT,"The cook will mix the paint, and the chemist will the music.",Pseudo-gapping,Patient
+36,T – SP violation,"The cook will mix ingredients, and the chemist will the dog.",Pseudo-gapping,Patient
+37,T – T,"The child will drink the coke, and the student will the coffee.",Pseudo-gapping,Patient
+37,T – AT,"The child will drink the coke, and the student will the gasoline.",Pseudo-gapping,Patient
+37,AT – T,"The child will drink the beer, and the student will the coffee.",Pseudo-gapping,Patient
+37,AT – AT,"The child will drink the beer, and the student will the gasoline.",Pseudo-gapping,Patient
+37,T – SP violation,"The child will drink the coke, and the student will the music.",Pseudo-gapping,Patient
+38,T – T,"The child will visit his grandmother, and the tourist will the museum.",Pseudo-gapping,Patient
+38,T – AT,"The child will visit his grandmother, and the tourist will the patient.",Pseudo-gapping,Patient
+38,AT – T,"The child will visit the president, and the tourist will the museum.",Pseudo-gapping,Patient
+38,AT – AT,"The child will visit the president, and the tourist will the patient.",Pseudo-gapping,Patient
+38,T – SP violation,"The child will visit the president, and the tourist will the pen.",Pseudo-gapping,Patient
+39,T – T,"The child will tell a lie, and the grandfather will a story.",Pseudo-gapping,Patient
+39,T – AT,"The child will tell a lie, and the grandfather will the strategy.",Pseudo-gapping,Patient
+39,AT – T,"The child will tell the verdict, and the grandfather will a story.",Pseudo-gapping,Patient
+39,AT – AT,"The child will tell the verdict, and the grandfather will the strategy.",Pseudo-gapping,Patient
+39,T – SP violation,"The child will tell a lie, and the grandfather will a cake. ",Pseudo-gapping,Patient
+40,T – T,"The refugee will find shelter, and the animal will the food.",Pseudo-gapping,Patient
+40,T – AT,"The refugee will find shelter, and the animal will the map.",Pseudo-gapping,Patient
+40,AT – T,"The refugee will find the doll, and the animal will the food.",Pseudo-gapping,Patient
+40,AT – AT,"The refugee will find the doll, and the animal will the map.",Pseudo-gapping,Patient
+40,T – SP violation,"The refugee will find shelter, and the animal will the sadness.",Pseudo-gapping,Patient
+41,T – T,"The waiter will open the bottle, and the child will the present.",Pseudo-gapping,Patient
+41,T – AT,"The waiter will open the bottle, and the child will the congress.",Pseudo-gapping,Patient
+41,AT – T,"The waiter will open the sarcophagus, and the child will the present.",Pseudo-gapping,Patient
+41,AT – AT,"The waiter will open the sarcophagus, and the child will the congress.",Pseudo-gapping,Patient
+41,T – SP violation,"The waiter will open the bottle, and the child will the sun. ",Pseudo-gapping,Patient
+42,T – T,"The librarian will stack the books, and the lumberjack will the wood.",Pseudo-gapping,Patient
+42,T – AT,"The librarian will stack the books, and the lumberjack will the suitcase.",Pseudo-gapping,Patient
+42,AT – T,"The librarian will stack the supplies, and the lumberjack will the wood.",Pseudo-gapping,Patient
+42,AT – AT,"The librarian will stack the supplies, and the lumberjack will the suitcase.",Pseudo-gapping,Patient
+42,T – SP violation,"The librarian will stack the books, and the lumberjack will the river.",Pseudo-gapping,Patient
+43,T – T,"The tailor will sew the dress, and the doctor will the wound.",Pseudo-gapping,Patient
+43,T – AT,"The tailor will sew the dress, and the doctor will the shoe.",Pseudo-gapping,Patient
+43,AT – T,"The tailor will sew the parachute, and the doctor will the wound.",Pseudo-gapping,Patient
+43,AT – AT,"The tailor will sew the parachute, and the doctor will the shoe",Pseudo-gapping,Patient
+43,T – SP violation,"The tailor will sew the dress, and the doctor will the banana.",Pseudo-gapping,Patient
+44,T – T,"The fighter will kick the opponent, and the footballer will the ball.",Pseudo-gapping,Patient
+44,T – AT,"The fighter will kick the opponent, and the footballer will the vase.",Pseudo-gapping,Patient
+44,AT – T,"The fighter will kick the television, and the footballer will the ball.",Pseudo-gapping,Patient
+44,AT – AT,"The fighter will kick the television, and the footballer will the vase.",Pseudo-gapping,Patient
+44,T – SP violation,"The fighter will kick the opponent, and the footballer will the water.",Pseudo-gapping,Patient
+45,T – T,"The climber will climb the rock, and the librarian will the ladder.",Pseudo-gapping,Patient
+45,T – AT,"The climber will climb the rock, and the librarian will the tree.",Pseudo-gapping,Patient
+45,AT – T,"The climber will climb the staircase, and the librarian will the ladder.",Pseudo-gapping,Patient
+45,AT – AT,"The climber will climb the staircase, and the librarian will the tree.",Pseudo-gapping,Patient
+45,T – SP violation,"The climber will climb the rock, and the librarian will the snow. ",Pseudo-gapping,Patient
+46,T – T,"I know the electrician is checking something, but I don’t know what.",Sluicing,Patient
+46,T – AT,"I know the electrician is checking something, but I don’t know who.",Sluicing,Patient
+46,AT – T,"I know the electrician is checking someone, but I don’t know what.",Sluicing,Patient
+46,AT – AT,"I know the electrician is checking someone, but I don’t know who.",Sluicing,Patient
+46,T – SP violation,"I know the electrician is checking something, but I don’t know whom.",Sluicing,Patient
+47,T – T,"The dog carried something, but I didn’t know what.",Sluicing,Patient
+47,T – AT,"The dog carried something, but I didn’t know when.",Sluicing,Patient
+47,AT – T,"The dog carried someone, but I didn’t know what.",Sluicing,Patient
+47,AT – AT,"The dog carried someone, but I didn’t know when. ",Sluicing,Patient
+47,T – SP violation,"The dog carried something, but I didn’t know whom.",Sluicing,Patient
+48,T – T,"The teenager is hearing something, but his friend doesn’t know what.",Sluicing,Patient
+48,T – AT,"The teenager is hearing something, but his friend doesn’t know who.",Sluicing,Patient
+48,AT – T,"The teenager is hearing someone, but his friend doesn’t know what. ",Sluicing,Patient
+48,AT – AT,"The teenager is hearing someone, but his friend doesn’t know who.",Sluicing,Patient
+48,T – SP violation,"The teenager is hearing something, but his friend doesn’t know whom.",Sluicing,Patient
+49,T – T,"The housewife is mopping something, but Sam doesn’t know what.",Sluicing,Patient
+49,T – AT,"The housewife is mopping something, but Sam doesn’t know who.",Sluicing,Patient
+49,AT – T,"The housewife is mopping someone, but Sam doesn’t know what.",Sluicing,Patient
+49,AT – AT,"The housewife is mopping someone, but Sam doesn’t know who.",Sluicing,Patient
+49,T – SP violation,"The housewife is mopping something, but Sam doesn’t know whom.",Sluicing,Patient
+50,T – T,"The speleologist is examining something, but we don’t know what.",Sluicing,Patient
+50,T – AT,"The speleologist is examining something, but we don’t know who. ",Sluicing,Patient
+50,AT – T,"The speleologist is examining someone, but we don’t know what.",Sluicing,Patient
+50,AT – AT,"The speleologist is examining someone, but we don’t know who.",Sluicing,Patient
+50,T – SP violation,"The speleologist is examining something, but we don’t know whom.",Sluicing,Patient
+51,T – T,"The businessman paid the bill with his credit card, and the student did with cash.",VP-ellipsis,Instrument
+51,T – AT,"The businessman paid the bill with his credit card, and the student did with a bank transfer. ",VP-ellipsis,Instrument
+51,AT – T,"The businessman paid the bill with coins, and the student did with cash. ",VP-ellipsis,Instrument
+51,AT – AT,"The businessman paid the bill with coins, and the student did with a bank transfer. ",VP-ellipsis,Instrument
+51,T – SP violation,"The businessman paid the bill with his credit card, and the student did with his hair.",VP-ellipsis,Instrument
+52,T – T,"The dog drank water with the bowl, and the man did with the glass.",VP-ellipsis,Instrument
+52,T – AT,"The dog drank water with the bowl, and the man did with the dish. ",VP-ellipsis,Instrument
+52,AT – T,"The dog drank water with the bottle, and the man did with the glass. ",VP-ellipsis,Instrument
+52,AT – AT,"The dog drank water with the bottle, and the man did with the dish. ",VP-ellipsis,Instrument
+52,T – SP violation,"The dog drank water with the bowl, and the man did with the ball. ",VP-ellipsis,Instrument
+53,T – T,"The mother prepares the food with the microwave, the cook will with the oven. ",VP-ellipsis,Instrument
+53,T – AT,"The mother prepares the food with the microwave, the cook will with the kiln.",VP-ellipsis,Instrument
+53,AT – T,"The mother prepares the food with the bonfire, the cook will with the oven.",VP-ellipsis,Instrument
+53,AT – AT,"The mother prepares the food with the bonfire, the cook will with the kiln.",VP-ellipsis,Instrument
+53,T – SP violation,"The mother prepares the food with the microwave, the cook will with the madness. ",VP-ellipsis,Instrument
+54,T – T,"The singer performed the music with the guitar, the musician will with the bass.",VP-ellipsis,Instrument
+54,T – AT,"The singer performed the music with the guitar, the musician will with the headphones.",VP-ellipsis,Instrument
+54,AT – T,"The singer performed the music with the megaphone, the musician will with the bass.",VP-ellipsis,Instrument
+54,AT – AT,"The singer performed the music with the megaphone, the musician will with the headphones.",VP-ellipsis,Instrument
+54,T – SP violation,"The singer performed the music with the guitar, the musician will with the pocket. ",VP-ellipsis,Instrument
+55,T – T,"The doctor healed the patient with the antibiotic, and the osteopath will with a massage.",VP-ellipsis,Instrument
+55,T – AT,"The doctor healed the patient with the antibiotic, and the osteopath will with soda.",VP-ellipsis,Instrument
+55,AT – T,"The doctor healed the patient with the gasoline, and the osteopath will with a massage.",VP-ellipsis,Instrument
+55,AT – AT,"The doctor healed the patient with the gasoline, and the osteopath will with soda. ",VP-ellipsis,Instrument
+55,T – SP violation,"The doctor healed the patient with the antibiotic, and the osteopath will with sunglasses.",VP-ellipsis,Instrument
+56,T – T,"The father drank milk with the cup, and the newborn did the same thing with the bottle.",Do-x/ Do-so anaphora,Instrument
+56,T – AT,"The father drank milk with the cup, and the newborn did the same thing with the glass. ",Do-x/ Do-so anaphora,Instrument
+56,AT – T,"The father drank milk with the dish, and the newborn did the same thing with the bottle.  ",Do-x/ Do-so anaphora,Instrument
+56,AT – AT,"The father drank milk with the dish, and the newborn did the same thing with the glass. ",Do-x/ Do-so anaphora,Instrument
+56,T – SP violation,"The father drank milk with the cup, and the newborn did the same thing with the painting. ",Do-x/ Do-so anaphora,Instrument
+57,T – T,"The mechanic fixed the bike with a wrench, and so did the cyclist with a screwdriver.",Do-x/ Do-so anaphora,Instrument
+57,T – AT,"The mechanic fixed the bike with a wrench, and so did the cyclist with a spoon.",Do-x/ Do-so anaphora,Instrument
+57,AT – T,"The mechanic fixed the bike with a tape, and so did the cyclist with a screwdriver.",Do-x/ Do-so anaphora,Instrument
+57,AT – AT,"The mechanic fixed the bike with a tape, and so did the cyclist with a spoon. ",Do-x/ Do-so anaphora,Instrument
+57,T – SP violation,"The mechanic fixed the bike with a wrench, and so did the cyclist with the potato.",Do-x/ Do-so anaphora,Instrument
+58,T – T,"The child played with toys, and the teenager did so with videogames too.",Do-x/ Do-so anaphora,Instrument
+58,T – AT,"The child played with toys, and the teenager did so with food too.",Do-x/ Do-so anaphora,Instrument
+58,AT – T,"The child played with money, and the teenager did so with videogames too.",Do-x/ Do-so anaphora,Instrument
+58,AT – AT,"The child played with money, and the teenager did so with food too.",Do-x/ Do-so anaphora,Instrument
+58,T – SP violation,"The child played with toys, and the teenager did so with the sun too.",Do-x/ Do-so anaphora,Instrument
+59,T – T,"The terrorist escaped with weapons, and so did civilians with supplies. ",Do-x/ Do-so anaphora,Instrument
+59,T – AT,"The terrorist escaped with weapons, and so did civilians with the jewelry. ",Do-x/ Do-so anaphora,Instrument
+59,AT – T,"The terrorist escaped with flowers, and so did civilians with supplies.",Do-x/ Do-so anaphora,Instrument
+59,AT – AT,"The terrorist escaped with flowers, and so did civilians with the jewelry.",Do-x/ Do-so anaphora,Instrument
+59,T – SP violation,"The terrorist escaped with weapons, and so did civilians with the sea.",Do-x/ Do-so anaphora,Instrument
+60,T – T,"The tailor sewed with the sewing machine, and the doctor did the same thing with the needle.",Do-x/ Do-so anaphora,Instrument
+60,T – AT,"The tailor sewed with the sewing machine, and the doctor did the same thing with scissors.",Do-x/ Do-so anaphora,Instrument
+60,AT – T,"The tailor sewed with the pen, and the doctor did the same thing with the needle.",Do-x/ Do-so anaphora,Instrument
+60,AT – AT,"The tailor sewed with the pen, and the doctor did the same thing with scissors.",Do-x/ Do-so anaphora,Instrument
+60,T – SP violation,"The tailor sewed with the sewing machine, and the doctor did the same thing with the river.",Do-x/ Do-so anaphora,Instrument
+61,T – T,"The child draws flowers with the pencil, and the painter with the brush.",Gapping,Instrument
+61,T – AT,"The child draws flowers with the pencil, and the painter with the highlighter.",Gapping,Instrument
+61,AT – T,"The child draws flowers with the scalpel, and the painter with the brush.",Gapping,Instrument
+61,AT – AT,"The child draws flowers with the scalpel, and the painter with the highlighter.",Gapping,Instrument
+61,T – SP violation,"The child draws flowers with the pencil, and the painter with the snow.",Gapping,Instrument
+62,T – T,"The hairstylist fixes the hair with the hairdryer, and the barber with the gel.",Gapping,Instrument
+62,T – AT,"The hairstylist fixes the hair with the hairdryer, and the barber with oil.",Gapping,Instrument
+62,AT – T,"The hairstylist fixes the hair with the glue, and the barber with the gel.",Gapping,Instrument
+62,AT – AT,"The hairstylist fixes the hair with the glue, and the barber with oil.",Gapping,Instrument
+62,T – SP violation,"The hairstylist fixes the hair with the hairdryer, and the barber with the hat.",Gapping,Instrument
+63,T – T,"The footballer hits the ball with his foot, and the tennis player with the racket.",Gapping,Instrument
+63,T – AT,"The footballer hits the ball with his foot, and the tennis player with the hoe.",Gapping,Instrument
+63,AT – T,"The footballer hits the ball with the bat, and the tennis player with the racket.",Gapping,Instrument
+63,AT – AT,"The footballer hits the ball with the bat, and the tennis player with the hoe.",Gapping,Instrument
+63,T – SP violation,"The footballer hits the ball with his foot, and the tennis player with the aunt. ",Gapping,Instrument
+64,T – T,"The dog digs a hole with its paw, and the farmer with the hoe.",Gapping,Instrument
+64,T – AT,"The dog digs a hole with its paw, and the farmer with the pen.",Gapping,Instrument
+64,AT – T,"The dog digs a hole with its tail, and the farmer with the hoe.",Gapping,Instrument
+64,AT – AT,"The dog digs a hole with its tail, and the farmer with the pen.",Gapping,Instrument
+64,T – SP violation,"The dog digs a hole with its paw, and the farmer with the wind.",Gapping,Instrument
+65,T – T,"The child crossed the park with the bicycle, and the skater with rollerblades.",Gapping,Instrument
+65,T – AT,"The child crossed the park with the bicycle, and the skater with the tricycle.",Gapping,Instrument
+65,AT – T,"The child crossed the park with the truck, and the skater with rollerblades.",Gapping,Instrument
+65,AT – AT,"The child crossed the park with the truck, and the skater with the tricycle.",Gapping,Instrument
+65,T – SP violation,"The child crossed the park with the bicycle, and the skater with the jacket.",Gapping,Instrument
+66,T – T,"The tourist will travel with the boat, and the billionaire will with the yacht.",Pseudo-gapping,Instrument
+66,T – AT,"The tourist will travel with the boat, and the billionaire will with the kayak.",Pseudo-gapping,Instrument
+66,AT – T,"The tourist will travel with the dinghy, and the billionaire will with the yacht.",Pseudo-gapping,Instrument
+66,AT – AT,"The tourist will travel with the dinghy, and the billionaire will with the kayak.",Pseudo-gapping,Instrument
+66,T – SP violation,"The tourist will travel with the boat, and the billionaire will with the sadness.",Pseudo-gapping,Instrument
+67,T – T,"The fisherman will catch fish with the net, and the grandfather will with the fishing rod.",Pseudo-gapping,Instrument
+67,T – AT,"The fisherman will catch fish with the net, and the grandfather will with the gun. ",Pseudo-gapping,Instrument
+67,AT – T,"The fisherman will catch fish with the hammer, and the grandfather will with the fishing rod.",Pseudo-gapping,Instrument
+67,AT – AT,"The fisherman will catch fish with the hammer, and the grandfather will with the gun.",Pseudo-gapping,Instrument
+67,T – SP violation,"The fisherman will catch fish with the net, and the grandfather will with the croissant.",Pseudo-gapping,Instrument
+68,T – T,"The photographer will take a picture with the camera, and the student will with the phone.",Pseudo-gapping,Instrument
+68,T – AT,"The photographer will take a picture with the camera, and the student will with the computer.",Pseudo-gapping,Instrument
+68,AT – T,"The photographer will take a picture with the tablet, and the student will with the phone.",Pseudo-gapping,Instrument
+68,AT – AT,"The photographer will take a picture with the tablet, and the student will with the computer.",Pseudo-gapping,Instrument
+68,T – SP violation,"The photographer will take a picture with the camera, and the student will with the pasta.",Pseudo-gapping,Instrument
+69,T – T,"The beautician will hydrate the skin with cream, and the masseuse will with oil.",Pseudo-gapping,Instrument
+69,T – AT,"The beautician will hydrate the skin with cream, and the masseuse will with gel.",Pseudo-gapping,Instrument
+69,AT – T,"The beautician will hydrate the skin with the acid, and the masseuse will with oil.",Pseudo-gapping,Instrument
+69,AT – AT,"The beautician will hydrate the skin with the acid, and the masseuse will with gel.",Pseudo-gapping,Instrument
+69,T – SP violation,"The beautician will hydrate the skin with cream, and the masseuse will with tobacco.",Pseudo-gapping,Instrument
+70,T – T,"The mother will water the plants with the watering can, the farmer will with the hose.",Pseudo-gapping,Instrument
+70,T – AT,"The mother will water the plants with the watering can, the farmer will with the bucket.",Pseudo-gapping,Instrument
+70,AT – T,"The mother will water the plants with the bottle, the farmer will with the hose.",Pseudo-gapping,Instrument
+70,AT – AT,"The mother will water the plants with the bottle, the farmer will with the bucket.",Pseudo-gapping,Instrument
+70,T – SP violation,"The mother will water the plants with the watering can, the farmer will with the hoe.",Pseudo-gapping,Instrument
+71,T – T,"The policeman is hitting the demonstrator with something, but I don’t know what with.",Sluice-Stranding,Instrument
+71,T – AT,"The policeman is hitting the demonstrator with something, but I don’t know who with.",Sluice-Stranding,Instrument
+71,AT – T,"The policeman is hitting the demonstrator with someone, but I don’t know what with.",Sluice-Stranding,Instrument
+71,AT – AT,"The policeman is hitting the demonstrator with someone, but I don’t know who with. ",Sluice-Stranding,Instrument
+71,T – SP violation,"The policeman is hitting the demonstrator with something, but I don’t know where with.",Sluice-Stranding,Instrument
+72,T – T,"The journalist is writing an article with something, but I’m not sure what with.",Sluice-Stranding,Instrument
+72,T – AT,"The journalist is writing an article with something, but I’m not sure who with.",Sluice-Stranding,Instrument
+72,AT – T,"The journalist is writing an article with someone, but I’m not sure what with.",Sluice-Stranding,Instrument
+72,AT – AT,"The journalist is writing an article with someone, but I’m not sure who with.",Sluice-Stranding,Instrument
+72,T – SP violation,"The journalist is writing an article with something, but I’m not sure how much with. ",Sluice-Stranding,Instrument
+73,T – T,"The gardener cut the grass with something, but she didn’t know what with.",Sluice-Stranding,Instrument
+73,T – AT,"The gardener cut the grass with something, but she didn’t know who with.",Sluice-Stranding,Instrument
+73,AT – T,"The gardener cut the grass with someone, but she didn’t know what with.",Sluice-Stranding,Instrument
+73,AT – AT,"The gardener cut the grass with someone, but she didn’t know who with.",Sluice-Stranding,Instrument
+73,T – SP violation,"The gardener cut the grass with something, but she didn’t know where with.",Sluice-Stranding,Instrument
+74,T – T,"The photographer was capturing the image with something, but he doesn’t know what with.",Sluice-Stranding,Instrument
+74,T – AT,"The photographer was capturing the image with something, but he doesn’t know who with.",Sluice-Stranding,Instrument
+74,AT – T,"The photographer was capturing the image with someone, but he doesn’t know what with. ",Sluice-Stranding,Instrument
+74,AT – AT,"The photographer was capturing the image with someone, but he doesn’t know who with.",Sluice-Stranding,Instrument
+74,T – SP violation,"The photographer was capturing the image with something, but he doesn’t know where with.",Sluice-Stranding,Instrument
+75,T – T,"The cook flipped the pancake with something, but I didn’t know what with.",Sluice-Stranding,Instrument
+75,T – AT,"The cook flipped the pancake with something, but I didn’t know who with.",Sluice-Stranding,Instrument
+75,AT – T,"The cook flipped the pancake with someone, but I didn’t know what with. ",Sluice-Stranding,Instrument
+75,AT – AT,"The cook flipped the pancake with someone, but I didn’t know who with.",Sluice-Stranding,Instrument
+75,T – SP violation,"The cook flipped the pancake with something, but I didn’t know how much with.",Sluice-Stranding,Instrument
+76,T – T,"The housewife cleaned the table in the kitchen, but the waiter didn’t in the restaurant.",VP-ellipsis,Location
+76,T – AT,"The housewife cleaned the table in the kitchen, but the waiter didn’t in the classroom.",VP-ellipsis,Location
+76,AT – T,"The housewife cleaned the table in the armory, but the waiter didn’t in the restaurant.",VP-ellipsis,Location
+76,AT – AT,"The housewife cleaned the table in the armory, but the waiter didn’t in the classroom.",VP-ellipsis,Location
+76,T – SP violation,"The housewife cleaned the table in the kitchen, but the waiter didn’t in the cat.",VP-ellipsis,Location
+77,T – T,"The student used the computer in the library, and the professor did in the office.",VP-ellipsis,Location
+77,T – AT,"The student used the computer in the library, and the professor did in the pub.",VP-ellipsis,Location
+77,AT – T,"The student used the computer in the helicopter, and the professor did in the office.",VP-ellipsis,Location
+77,AT – AT,"The student used the computer in the helicopter, and the professor did in the pub.",VP-ellipsis,Location
+77,T – SP violation,"The student used the computer in the library, and the professor did in the shoes.",VP-ellipsis,Location
+78,T – T,"The soldier celebrated the victory in the battlefield, the athlete will on the podium.",VP-ellipsis,Location
+78,T – AT,"The soldier celebrated the victory in the battlefield, the athlete will in the car.",VP-ellipsis,Location
+78,AT – T,"The soldier celebrated the victory in the university, the athlete will on the podium.",VP-ellipsis,Location
+78,AT – AT,"The soldier celebrated the victory in the university, the athlete will in the car. ",VP-ellipsis,Location
+78,T – SP violation,"The soldier celebrated the victory in the battlefield, the athlete will on the orange.",VP-ellipsis,Location
+79,T – T,"The president delivered a speech in parliament, the priest did in the church.",VP-ellipsis,Location
+79,T – AT,"The president delivered a speech in parliament, the priest did in the restaurant.",VP-ellipsis,Location
+79,AT – T,"The president delivered a speech in the mountain, the priest did in the church.",VP-ellipsis,Location
+79,AT – AT,"The president delivered a speech in the mountain, and the priest did in the restaurant.",VP-ellipsis,Location
+79,T – SP violation,"The president delivered a speech in the parliament, and the priest did in the circle.",VP-ellipsis,Location
+80,T – T,"The student heard the presentation in the university, the spectator will in the auditorium.",VP-ellipsis,Location
+80,T – AT,"The student heard the presentation in the university, the spectator will in the bakery.",VP-ellipsis,Location
+80,AT – T,"The student heard the presentation in the subway, the spectator will in the auditorium.",VP-ellipsis,Location
+80,AT – AT,"The student heard the presentation in the subway, the spectator will in the bakery.",VP-ellipsis,Location
+80,T – SP violation,"The student heard the presentation in the university, the spectator will in the monkey.",VP-ellipsis,Location
+81,T – T,"The refugees found shelter in the church, and so did civilians in bunkers.",Do-x/ Do-so anaphora,Location
+81,T – AT,"The refugees found shelter in the church, and so did civilians in supermarkets.",Do-x/ Do-so anaphora,Location
+81,AT – T,"The refugees found shelter in the bakery, and so did civilians in bunkers.",Do-x/ Do-so anaphora,Location
+81,AT – AT,"The refugees found shelter in the bakery, and so did civilians in supermarkets.",Do-x/ Do-so anaphora,Location
+81,T – SP violation,"The refugees found shelter in the church, and so did civilians in the inflation.",Do-x/ Do-so anaphora,Location
+82,T – T,"The dog played with his owner in the park, and the cat did the same thing in the house.",Do-x/ Do-so anaphora,Location
+82,T – AT,"The dog played with his owner in the park, and the cat did the same thing in the supermarket.",Do-x/ Do-so anaphora,Location
+82,AT – T,"The dog played with his owner in the auditorium, and the cat did the same thing in the house.",Do-x/ Do-so anaphora,Location
+82,AT – AT,"The dog played with his owner in the auditorium, and the cat did the same thing in the supermarket.",Do-x/ Do-so anaphora,Location
+82,T – SP violation,"The dog played with his owner in the park, and the cat did the same thing in the heat.",Do-x/ Do-so anaphora,Location
+83,T – T,"The artist hung the picture in the gallery, and the teenager did so in the room too. ",Do-x/ Do-so anaphora,Location
+83,T – AT,"The artist hung the picture in the gallery, and the teenager did so in the gym too.",Do-x/ Do-so anaphora,Location
+83,AT – T,"The artist hung the picture in the factory, and the teenager did so in the room too.",Do-x/ Do-so anaphora,Location
+83,AT – AT,"The artist hung the picture in the factory, and the teenager did so in the gym too.  ",Do-x/ Do-so anaphora,Location
+83,T – SP violation,"The artist hung the picture in the gallery, and the teenager did so in the mother too.",Do-x/ Do-so anaphora,Location
+84,T – T,"The hound fetched the bird in the forest, and so did the cat in the garden.",Do-x/ Do-so anaphora,Location
+84,T – AT,"The hound fetched the bird in the forest, and so did the cat in the house.",Do-x/ Do-so anaphora,Location
+84,AT – T,"The hound fetched the bird in the hospital, and so did the cat in the garden.",Do-x/ Do-so anaphora,Location
+84,AT – AT,"The hound fetched the bird in the hospital, and so did the cat in the house. ",Do-x/ Do-so anaphora,Location
+84,T – SP violation,"The hound fetched the bird in the forest, and so did the cat in the air. ",Do-x/ Do-so anaphora,Location
+85,T – T,"The family sunbathed on the beach, and the billionaire did the same thing on the yacht.",Do-x/ Do-so anaphora,Location
+85,T – AT,"The family sunbathed on the beach, and the billionaire did the same thing in the garden.",Do-x/ Do-so anaphora,Location
+85,AT – T,"The family sunbathed at the river, and the billionaire did the same thing on the yacht. ",Do-x/ Do-so anaphora,Location
+85,AT – AT,"The family sunbathed at the river, and the billionaire did the same thing in the garden.",Do-x/ Do-so anaphora,Location
+85,T – SP violation,"The family sunbathed on the beach, and the billionaire did the same thing in the vase.",Do-x/ Do-so anaphora,Location
+86,T – T,"The cameraman is recording a video on the set, and the tourist in the museum.",Gapping,Location
+86,T – AT,"The cameraman is recording a video on the set, and the tourist in the hospital.",Gapping,Location
+86,AT – T,"The cameraman is recording a video in the greenhouse, and the tourist in the museum.",Gapping,Location
+86,AT – AT,"The cameraman is recording a video in the greenhouse, and the tourist in the hospital.",Gapping,Location
+86,T – SP violation,"The cameraman is recording a video on the set, and the tourist in the shoes.",Gapping,Location
+87,T – T,"The professor opens the congress in the university, and the speaker in the auditorium.",Gapping,Location
+87,T – AT,"The professor opens the congress in the university, and the speaker in the gym.",Gapping,Location
+87,AT – T,"The professor opens the congress in the circus, and the speaker in the gym.",Gapping,Location
+87,AT – AT,"The professor opens the congress in the circus, and the speaker in the gym.",Gapping,Location
+87,T – SP violation,"The professor opens the congress in the university, and the speaker in the luggage",Gapping,Location
+88,T – T,"The painter painted a picture in the square, and the child in the kindergarten.",Gapping,Location
+88,T – AT,"The painter painted a picture in the square, and the child in the parking.",Gapping,Location
+88,AT – T,"The painter painted a picture in the barracks, and the child in the kindergarten.",Gapping,Location
+88,AT – AT,"The painter painted a picture in the barracks, and the child in the parking. ",Gapping,Location
+88,T – SP violation,"The painter painted a picture in the square, and the child in the turtle.",Gapping,Location
+89,T – T,"The farmer is picking vegetables in the greenhouse, and the grandfather in the garden.",Gapping,Location
+89,T – AT,"The farmer is picking vegetables in the greenhouse, and the grandfather on the beach.",Gapping,Location
+89,AT – T,"The farmer is picking vegetables in the mountain, and the grandfather on the garden.",Gapping,Location
+89,AT – AT,"The farmer is picking vegetables in the mountain, and the grandfather on the beach.",Gapping,Location
+89,T – SP violation,"The farmer is picking vegetables in the greenhouse, and the grandfather in the ball.",Gapping,Location
+90,T – T,"The priest married the couple in the church, and the mayor in the city hall.",Gapping,Location
+90,T – AT,"The priest married the couple in the church, and the mayor in the supermarket.",Gapping,Location
+90,AT – T,"The priest married the couple on the beach, and the mayor in the city hall.",Gapping,Location
+90,AT – AT,"The priest married the couple on the boat, and the mayor in the supermarket.",Gapping,Location
+90,T – SP violation,"The priest married the couple in the church, and the mayor in the umbrella.",Gapping,Location
+91,T – T,"The mother will cook the pizza in the oven, and the pizza maker will in the wood oven.",Pseudo-gapping,Location
+91,T – AT,"The mother will cook the pizza in the oven, and the pizza maker will in the pan.",Pseudo-gapping,Location
+91,AT – T,"The mother will cook the pizza in the microwave, and the pizza maker will in the wood oven.",Pseudo-gapping,Location
+91,AT – AT,"The mother will cook the pizza in the microwave, and the pizza maker will in the pan.",Pseudo-gapping,Location
+91,T – SP violation,"The mother will cook the pizza in the oven, and the pizza maker will in the plant.",Pseudo-gapping,Location
+92,T – T,"The doctor will wear the white coat in the hospital, and the pharmacist will in the pharmacy.",Pseudo-gapping,Location
+92,T – AT,"The doctor will wear the white coat in the hospital, and the pharmacist will in the garden.",Pseudo-gapping,Location
+92,AT – T,"The doctor will wear the white coat in the gym, and the pharmacist will in the pharmacy.",Pseudo-gapping,Location
+92,AT – AT,"The doctor will wear the white coat in the gym, and the pharmacist will in the garden. ",Pseudo-gapping,Location
+92,T – SP violation,"The doctor will wear the white coat in the hospital, and the pharmacist will in the allergy.",Pseudo-gapping,Location
+93,T – T,"The student will dance in the disco, and the dancer will in the theater.",Pseudo-gapping,Location
+93,T – AT,"The student will dance in the disco, and the dancer will in the living room.",Pseudo-gapping,Location
+93,AT – T,"The student will dance in the gym, and the dancer will in the theater.",Pseudo-gapping,Location
+93,AT – AT,"The student will dance in the gym, and the dancer will in the living room.",Pseudo-gapping,Location
+93,T – SP violation,"The student will dance in the disco, and the dancer will in the picture. ",Pseudo-gapping,Location
+94,T – T,"The traveller will check the watch on the platform, and the businessman will in the office.",Pseudo-gapping,Location
+94,T – AT,"The traveller will check the watch on the platform, and the businessman will at the zoo.",Pseudo-gapping,Location
+94,AT – T,"The traveller will check the watch in the prison, and the businessman will in the office.",Pseudo-gapping,Location
+94,AT – AT,"The traveller will check the watch in the prison, and the businessman will at the zoo.",Pseudo-gapping,Location
+94,T – SP violation,"The traveller will check the watch on the platform, and the businessman will in the bread.",Pseudo-gapping,Location
+95,T – T,"The singer will perform in the stadium, and the drag queen will in the nightclub.",Pseudo-gapping,Location
+95,T – AT,"The singer will perform in the stadium, and the drag queen will in the kitchen. ",Pseudo-gapping,Location
+95,AT – T,"The singer will perform on the beach, and the drag queen will in the nightclub.",Pseudo-gapping,Location
+95,AT – AT,"The singer will perform on the beach, and the drag queen will in the kitchen. ",Pseudo-gapping,Location
+95,T – SP violation,"The singer will perform in the stadium, and the drag queen will in the bottle.",Pseudo-gapping,Location
+96,T – T,"The student completed the project before the exam, but the engineer didn’t before the deadline.",VP-ellipsis,Time
+96,T – AT,"The student completed the project before the exam, but the engineer didn’t before the summer.",VP-ellipsis,Time
+96,AT – T,"The student completed the project before the execution, but the engineer didn’t before the deadline.",VP-ellipsis,Time
+96,AT – AT,"The student completed the project before the execution, but the engineer didn’t before the summer.",VP-ellipsis,Time
+96,T – SP violation,"The student completed the project before the exam, but the engineer didn’t before the book.",VP-ellipsis,Time
+97,T – T,"The passenger buys a ticket before the departure, the tourist will before the holiday.",VP-ellipsis,Time
+97,T – AT,"The passenger buys a ticket before the departure, the tourist will before breakfast.",VP-ellipsis,Time
+97,AT – T,"The passenger buys a ticket before the meeting, the tourist will before the holiday.",VP-ellipsis,Time
+97,AT – AT,"The passenger buys a ticket before the meeting, the tourist will before breakfast.",VP-ellipsis,Time
+97,T – SP violation,"The passenger buys a ticket before the departure, the tourist will before the banana.",VP-ellipsis,Time
+98,T – T,"The student cut his hair before the graduation, the groom will before the marriage. ",VP-ellipsis,Time
+98,T – AT,"The student cut his hair before the graduation, the groom will before the workout.",VP-ellipsis,Time
+98,AT – T,"The student cut his hair before the excursion, the groom will before the marriage.",VP-ellipsis,Time
+98,AT – AT,"The student cut his hair before the excursion, the groom will before the workout.",VP-ellipsis,Time
+98,T – SP violation,"The student cut his hair before the graduation, the groom will before the bike.",VP-ellipsis,Time
+99,T – T,"The musician entertained the crowd during the concert, and the comedian did during the show.",VP-ellipsis,Time
+99,T – AT,"The musician entertained the crowd during the concert, and the comedian did during the lesson.",VP-ellipsis,Time
+99,AT – T,"The musician entertained the crowd during the flight, and the comedian did during the show.",VP-ellipsis,Time
+99,AT – AT,"The musician entertained the crowd during the flight, and the comedian did during the lesson.",VP-ellipsis,Time
+99,T – SP violation,"The musician entertained the crowd during the concert, and the comedian did during the television.",VP-ellipsis,Time
+100,T – T,"The soldier checked the rifle during the drill, but the hunter didn’t before the hunting.",VP-ellipsis,Time
+100,T – AT,"The soldier checked the rifle during the drill, but the hunter didn’t before the wedding.",VP-ellipsis,Time
+100,AT – T,"The soldier checked the rifle during the party, but the hunter didn’t before the hunting.",VP-ellipsis,Time
+100,AT – AT,"The soldier checked the rifle during the party, but the hunter didn’t before the wedding.",VP-ellipsis,Time
+100,T – SP violation,"The soldier checked the rifle during the drill, but the hunter didn’t before the leaf.",VP-ellipsis,Time
+101,T – T,"The cook washed his hands before cooking, and so did the doctor before the surgery.",Do-x/ Do-so anaphora,Time
+101,T – AT,"The cook washed his hands before cooking, and so did the doctor before the meeting.",Do-x/ Do-so anaphora,Time
+101,AT – T,"The cook washed his hands before the match, and so did the doctor before the surgery.",Do-x/ Do-so anaphora,Time
+101,AT – AT,"The cook washed his hands before the match, and so did the doctor before the meeting.",Do-x/ Do-so anaphora,Time
+101,T – SP violation,"The cook washed his hands before cooking, and so did the doctor before the chair.",Do-x/ Do-so anaphora,Time
+102,T – T,"The professor spoke to the audience during the conference, and the businessman did so during the meeting too.",Do-x/ Do-so anaphora,Time
+102,T – AT,"The professor spoke to the audience during the conference, and the businessman did so during the workout too.",Do-x/ Do-so anaphora,Time
+102,AT – T,"The professor spoke to the audience during the funeral, and the businessman did so during the meeting too.",Do-x/ Do-so anaphora,Time
+102,AT – AT,"The professor spoke to the audience during the funeral, and the businessman did so during the workout too.",Do-x/ Do-so anaphora,Time
+102,T – SP violation,"The professor spoke to the audience during the conference, and the businessman did so during the door too.",Do-x/ Do-so anaphora,Time
+103,T – T,"The student had lunch after school, and the worker did the same thing during the lunch break. ",Do-x/ Do-so anaphora,Time
+103,T – AT,"The student had lunch after school, and the worker did the same thing during the meeting.",Do-x/ Do-so anaphora,Time
+103,AT – T,"The student had lunch after an excursion, and the worker did the same thing during the lunch break.",Do-x/ Do-so anaphora,Time
+103,AT – AT,"The student had lunch after an excursion, and the worker did the same thing during the meeting.",Do-x/ Do-so anaphora,Time
+103,T – SP violation,"The student had lunch after school, and the worker did the same thing during the milk.",Do-x/ Do-so anaphora,Time
+104,T – T,"The demonstrator carried the flag during the demonstration, and the cheerleader did so before the match too.",Do-x/ Do-so anaphora,Time
+104,T – AT,"The demonstrator carried the flag during the demonstration, and the cheerleader did so before dinner too.",Do-x/ Do-so anaphora,Time
+104,AT – T,"The demonstrator carried the flag during lunch, and the cheerleader did so before the match too.",Do-x/ Do-so anaphora,Time
+104,AT – AT,"The demonstrator carried the flag during lunch, and the cheerleader did so before dinner too.",Do-x/ Do-so anaphora,Time
+104,T – SP violation,"The demonstrator carried the flag during the demonstration, and the cheerleader did so before the phone too.",Do-x/ Do-so anaphora,Time
+105,T – T,"The boxer delivered a punch during the fight, and so did the criminal during the robbery. ",Do-x/ Do-so anaphora,Time
+105,T – AT,"The boxer delivered a punch during the fight, and so did the criminal during the festival.",Do-x/ Do-so anaphora,Time
+105,AT – T,"The boxer delivered a punch during the fire, and so did the criminal during the robbery.",Do-x/ Do-so anaphora,Time
+105,AT – AT,"The boxer delivered a punch during the fire, and so did the criminal during the festival.",Do-x/ Do-so anaphora,Time
+105,T – SP violation,"The boxer delivered a punch during the fight, and so did the criminal during the circle.",Do-x/ Do-so anaphora,Time
+106,T – T,"The tourist visits some museums during the vacation, and the students during the school trip.",Gapping,Time
+106,T – AT,"The tourist visits some museums during the vacation, and the students during the exams.",Gapping,Time
+106,AT – T,"The tourist visits some museums during the party, and the students during the school trip.",Gapping,Time
+106,AT – AT,"The tourist visits some museums during the party, and the students during the exams.",Gapping,Time
+106,T – SP violation,"The tourist visits some museums during the vacation, and the students during the river.",Gapping,Time
+107,T – T,"The bride put on her makeup before the ceremony, and the model before the photo shoot.",Gapping,Time
+107,T – AT,"The bride put on her makeup before the ceremony, and the model before the meeting.",Gapping,Time
+107,AT – T,"The bride put on her makeup before the party, and the model before the photo shoot.",Gapping,Time
+107,AT – AT,"The bride put on her makeup before the party, and the model before the meeting.",Gapping,Time
+107,T – SP violation,"The bride put on her makeup before the marriage, and the model before the table. ",Gapping,Time
+108,T – T,"The student studied before the exam, and the public employee before the interview.",Gapping,Time
+108,T – AT,"The student studied before the exam, and the public employee before the meeting.",Gapping,Time
+108,AT – T,"The student studied before the excursion, and the public employee before the interview.",Gapping,Time
+108,AT – AT,"The student studied before the excursion, and the public employee before the meeting.",Gapping,Time
+108,T – SP violation,"The student studied before the exam, and the public employee before the bag.",Gapping,Time
+109,T – T,"The athlete stretches before the workout, and the dancer before the performance. ",Gapping,Time
+109,T – AT,"The athlete stretches before the workout, and the dancer before lunch.",Gapping,Time
+109,AT – T,"The athlete stretches before the party, and the dancer before the performance.",Gapping,Time
+109,AT – AT,"The athlete stretches before the party, and the dancer before lunch.",Gapping,Time
+109,T – SP violation,"The athlete stretches before the workout, and the dancer before the bottle.",Gapping,Time
+110,T – T,"The actor rehearsed before the play, and the singer before the concert.",Gapping,Time
+110,T – AT,"The actor rehearsed before the play, and the singer before the lesson.",Gapping,Time
+110,AT – T,"The actor rehearsed before the festival, and the singer before the concert.",Gapping,Time
+110,AT – AT,"The actor rehearsed before the festival, and the singer before the lesson.",Gapping,Time
+110,T – SP violation,"The actor rehearsed before the play, and the singer before sadness.",Gapping,Time
+111,T – T,"The runner will drink some water after the race, and the athlete will after the workout.",Pseudo-gapping,Time
+111,T – AT,"The runner will drink some water after the race, and the athlete will after the funeral.",Pseudo-gapping,Time
+111,AT – T,"The runner will drink some water after the concert, and the athlete will after the workout.",Pseudo-gapping,Time
+111,AT – AT,"The runner will drink some water after the concert, and the athlete will after the funeral.",Pseudo-gapping,Time
+111,T – SP violation,"The runner will drink some water after the race, and the athlete will after the cream.",Pseudo-gapping,Time
+112,T – T,"The spectator will cry during the film, and the newborn will during the night.",Pseudo-gapping,Time
+112,T – AT,"The spectator will cry during the film, and the newborn will during the walk.",Pseudo-gapping,Time
+112,AT – T,"The spectator will cry during the conference, and the newborn will during the night.",Pseudo-gapping,Time
+112,AT – AT,"The spectator will cry during the conference, and the newborn will during the walk.",Pseudo-gapping,Time
+112,T – SP violation,"The spectator will cry during the film, and the newborn will during the tshirt.",Pseudo-gapping,Time
+113,T – T,"The student will have a party after his graduation, and the couple will after their marriage.",Pseudo-gapping,Time
+113,T – AT,"The student will have a party after his graduation, and the couple will after their meeting.",Pseudo-gapping,Time
+113,AT – T,"The student will have a party after the interview, and the couple will after their marriage.",Pseudo-gapping,Time
+113,AT – AT,"The student will have a party after the interview, and the couple will after their meeting.",Pseudo-gapping,Time
+113,T – SP violation,"The student will have a party after his graduation, and the couple will after their clothes.",Pseudo-gapping,Time
+114,T – T,"The student workouts after school, and the businessman will after work.",Pseudo-gapping,Time
+114,T – AT,"The student workouts after school, and the businessman will during work.",Pseudo-gapping,Time
+114,AT – T,"The student workouts before school, and the businessman will after work.",Pseudo-gapping,Time
+114,AT – AT,"The student workouts before school, and the businessman will during work.",Pseudo-gapping,Time
+114,T – SP violation,"The student workouts after school, and the businessman will after the rope.",Pseudo-gapping,Time
+115,T – T,"The tourist packed his bags before departure, and the family will before the move.",Pseudo-gapping,Time
+115,T – AT,"The tourist packed his bags before departure, and the family will before the party.",Pseudo-gapping,Time
+115,AT – T,"The tourist packed his bags before the meeting, and the family will before the move.",Pseudo-gapping,Time
+115,AT – AT,"The tourist packed his bags before the meeting, and the family will before the party. ",Pseudo-gapping,Time
+115,T – SP violation,"The tourist packed his bags before departure, and the family will before the dog.",Pseudo-gapping,Time
